@@ -1,0 +1,18 @@
+itemGroup.Riftcraft=Rift Craft
+
+tile.Rift Engine.name=Rift Engine
+tile.Mini Rift.name=Mini Rift
+tile.Upgrade Slot.name=Upgrade Slot
+tile.Mini BlackHole.name=Mini Blackhole
+tile.WarpedBlock.name=Warped Block
+tile.Rift Stabilizer.name=Rift Stabilizer
+tile.DwarftStarAlloy.name=Dwart Star Alloy
+
+item.blackhole.name=Blackhole
+item.riftplace=Rift Plate
+item.radiationhelm.name=Radiaton Helmet
+item.riftlegs.name=Rift Leggings
+item.riftboots.name=Rift Boots
+item.rift.name=Rift
+item.warpedmatter.name=Warped Matter
+
