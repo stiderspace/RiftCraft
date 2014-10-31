@@ -1,0 +1,21 @@
+[
+{
+  "modid": "Riftcraft",
+  "name": "Riftcraft",
+  "description": "every thing about rifts and space time maniputation you will find here ",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "stiderspace"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
