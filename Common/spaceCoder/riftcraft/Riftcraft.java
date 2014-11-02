@@ -4,6 +4,7 @@ import spaceCoder.riftcraft.block.ModBlocks;
 import spaceCoder.riftcraft.handler.ConfigurationHandler;
 import spaceCoder.riftcraft.item.ModItems;
 import spaceCoder.riftcraft.lib.reference.Reference;
+import spaceCoder.riftcraft.lib.utility.LogHelper;
 import spaceCoder.riftcraft.proxy.IProxy;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
@@ -32,19 +33,21 @@ public class Riftcraft {
 		    FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 		    ModBlocks.init();
             ModItems.init();
+            LogHelper.info("Pre Initialization Finished");
 		    		
 		}
 
 		@EventHandler
 		public void load(FMLInitializationEvent event) 
 		{
-				
+		    
+		    LogHelper.info("Initialization Finished");	
 		}
 
 		@EventHandler
 		public void postInit(FMLPostInitializationEvent event) 
 		{
-			
+		    LogHelper.info("Post Initialization Finished");
 		}
 	}
 
