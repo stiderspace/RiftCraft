@@ -13,7 +13,7 @@ public class ModBlocks
     {
         //Add the blocks
         WarpedBlock = new BlockWarpedBlock();
-        WarpedBlock = new BlockRift();
+        Rift		= new BlockRift();
         
         //Register the blocks
         RegisterHelper.registerBlock(WarpedBlock);
