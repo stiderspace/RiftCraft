@@ -1,8 +1,8 @@
 package spaceCoder.riftcraft;
 
-import spaceCoder.riftcraft.block.ModBlocks;
 import spaceCoder.riftcraft.handler.ConfigurationHandler;
-import spaceCoder.riftcraft.item.ModItems;
+import spaceCoder.riftcraft.init.ModBlocks;
+import spaceCoder.riftcraft.init.ModItems;
 import spaceCoder.riftcraft.lib.reference.Reference;
 import spaceCoder.riftcraft.lib.utility.LogHelper;
 import spaceCoder.riftcraft.proxy.IProxy;

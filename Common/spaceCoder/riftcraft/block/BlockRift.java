@@ -5,13 +5,13 @@ import spaceCoder.riftcraft.lib.reference.BlockNames;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
-public class BlockRift extends Block {
+public class BlockRift extends BlockRC {
 	
-	protected BlockRift() {
+	public BlockRift() {
 		super(Material.portal);
 		//this.setCreativeTab(Riftcraft.tabsRFC);
-		this.setBlockName(BlockNames.RIFT_NAME);
-		this.setLightLevel(50.0F);
+		setBlockName(BlockNames.RIFT_NAME);
+		setLightLevel(15.0F);
 	}
 	
 }
