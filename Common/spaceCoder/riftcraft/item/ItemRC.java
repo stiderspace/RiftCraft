@@ -3,6 +3,7 @@ package spaceCoder.riftcraft.item;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import spaceCoder.riftcraft.creativeTabs.CreativeTabRFC;
 import spaceCoder.riftcraft.lib.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class ItemRC extends Item
     public ItemRC()
     {
         super();
+        this.setCreativeTab(CreativeTabRFC.RFC_TAB);
     }
 
     @Override
