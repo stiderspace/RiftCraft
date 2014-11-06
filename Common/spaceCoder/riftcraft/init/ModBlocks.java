@@ -3,6 +3,7 @@ package spaceCoder.riftcraft.init;
 import net.minecraft.block.Block;
 import spaceCoder.riftcraft.block.BlockRift;
 import spaceCoder.riftcraft.block.BlockWarpedBlock;
+import spaceCoder.riftcraft.lib.reference.BlockNames;
 import spaceCoder.riftcraft.lib.reference.Reference;
 import spaceCoder.riftcraft.lib.utility.RegisterHelper;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -23,6 +24,7 @@ public class ModBlocks
         //Register the blocks
         RegisterHelper.registerBlock(WarpedBlock);
         RegisterHelper.registerBlock(Rift);
+        //GameRegistry.registerBlock(Rift, BlockNames.RIFT_NAME);
     }
 }
 

@@ -10,10 +10,9 @@ public class BlockWarpedBlock extends BlockRC {
 	public BlockWarpedBlock(){
 		
 		super(Material.glass);
-		setBlockName(BlockNames.WARPEDBLOCK_NAME);
+		this.setBlockName(BlockNames.WARPEDBLOCK_NAME);
 		//setCreativeTab(Riftcraft.tabsRFC);
-		setHardness(5F);
-		setStepSound(soundTypeAnvil);
-		//this.setBlockTextureName(BlockNames.RESOURCE_PREFIX + BlockNames.WARPEDBLOCK_NAME);
+		this.setHardness(5F);
+		this.setStepSound(soundTypeAnvil);
 	}
 }

@@ -22,7 +22,7 @@ public class BlockRC extends Block
     public String getUnlocalizedName()
     {
         return String.format("tile.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
-        //tile.modid.blockname.name
+        //tile.modid:blockname.name
     }
 
     @Override

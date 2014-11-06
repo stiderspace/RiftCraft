@@ -1,17 +1,17 @@
 package spaceCoder.riftcraft.block;
 
-import spaceCoder.riftcraft.Riftcraft;
-import spaceCoder.riftcraft.lib.reference.BlockNames;
-import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import spaceCoder.riftcraft.lib.reference.BlockNames;
+import spaceCoder.riftcraft.lib.utility.LogHelper;
 
 public class BlockRift extends BlockRC {
 	
 	public BlockRift() {
 		super(Material.portal);
 		//this.setCreativeTab(Riftcraft.tabsRFC);
-		setBlockName(BlockNames.RIFT_NAME);
-		setLightLevel(15.0F);
+		this.setBlockName(BlockNames.RIFT_NAME);
+		this.setLightLevel(15.0F);
+
 	}
 	
 }
