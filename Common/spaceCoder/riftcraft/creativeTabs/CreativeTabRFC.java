@@ -14,7 +14,6 @@ public class CreativeTabRFC
         {
             return Items.apple;
         }
-        
     };
 
 }

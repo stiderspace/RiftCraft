@@ -8,4 +8,4 @@ itemGroup.riftcraft=RiftCraft
 
 # Blocks
 tile.riftcraft:Rift.name=Rift
-tile.riftcraft:WarpedBlock=Warped Matter
+tile.riftcraft:WarpedBlock.name=Warped Matter

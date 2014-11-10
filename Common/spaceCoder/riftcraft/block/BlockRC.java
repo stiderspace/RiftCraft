@@ -13,11 +13,12 @@ public class BlockRC extends Block
     public BlockRC(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabRFC.RFC_TAB);
     }
     public BlockRC()
     {
-        this(Material.rock);
-        this.setCreativeTab(CreativeTabRFC.RFC_TAB);
+        this(Material.iron);
+        
     }
     
     @Override
