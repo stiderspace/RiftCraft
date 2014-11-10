@@ -14,12 +14,11 @@ public class BlockRC extends Block
     {
         super(material);
         this.setCreativeTab(CreativeTabRFC.RFC_TAB);
-        this.setHardness(5F);
-        this.setStepSound(soundTypeAnvil);
     }
     public BlockRC()
     {
         this(Material.iron);
+        
     }
     
     @Override
