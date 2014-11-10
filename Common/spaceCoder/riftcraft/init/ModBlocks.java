@@ -31,15 +31,15 @@ public class ModBlocks
     public static void init()
     {
         //Add the blocks
-        WarpedBlock = new BlockWarpedBlock();
-        Rift = new BlockRift();
-        Energyhub = new BlockEnergyHub();
-        EnergyConverter = new BlockEnergyConverter();
-        RiftMachine = new BlockRiftMachine();
-        ContainedRift = new BlockContainedRift();
-        ContainedBlackHole = new BlockContainedBlackHole();
-        TemperalChest = new BlockTemperalChest();
-        BlackHoleExtractor = new BlockBlackHoleExtractor();
+        WarpedBlock 		= new BlockWarpedBlock();
+        Rift 				= new BlockRift();
+        Energyhub 			= new BlockEnergyHub();
+        EnergyConverter 	= new BlockEnergyConverter();
+        RiftMachine 		= new BlockRiftMachine();
+        ContainedRift 		= new BlockContainedRift();
+        ContainedBlackHole	= new BlockContainedBlackHole();
+        TemperalChest 		= new BlockTemperalChest();
+        BlackHoleExtractor 	= new BlockBlackHoleExtractor();
         
         
         //Register the blocks
