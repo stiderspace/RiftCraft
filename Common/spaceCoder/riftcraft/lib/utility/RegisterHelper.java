@@ -21,4 +21,9 @@ public class RegisterHelper
     {
         GameRegistry.registerItem(item,item.getUnlocalizedName().substring(15));
     }
+    
+    public static void registerTileEntity(Class title, String name)
+    {
+        GameRegistry.registerTileEntity(title, name);
+    }
 }

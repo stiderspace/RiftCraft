@@ -3,9 +3,10 @@ package spaceCoder.riftcraft;
 import spaceCoder.riftcraft.handler.ConfigurationHandler;
 import spaceCoder.riftcraft.init.ModBlocks;
 import spaceCoder.riftcraft.init.ModItems;
+import spaceCoder.riftcraft.init.ModTile;
 import spaceCoder.riftcraft.lib.reference.Reference;
 import spaceCoder.riftcraft.lib.utility.LogHelper;
-import spaceCoder.riftcraft.proxy.IProxy;
+import spaceCoder.riftcraft.proxy.CommonProxy;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -23,7 +24,7 @@ public class Riftcraft {
 	public static Riftcraft instance;
 
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
-	public static IProxy proxy;
+	public static CommonProxy proxy;
 
 
 		@EventHandler
@@ -33,6 +34,7 @@ public class Riftcraft {
 		    FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 		    ModBlocks.init();
             ModItems.init();
+            ModTile.init();
             LogHelper.info("Pre Initialization Finished");
 		    		
 		}
@@ -40,7 +42,7 @@ public class Riftcraft {
 		@EventHandler
 		public void load(FMLInitializationEvent event) 
 		{
-		    
+		    proxy.loadRenderers();
 		    LogHelper.info("Initialization Finished");	
 		}
 

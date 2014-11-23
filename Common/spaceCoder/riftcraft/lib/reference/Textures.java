@@ -3,6 +3,7 @@ package spaceCoder.riftcraft.lib.reference;
 
 import net.minecraft.client.renderer.texture.TextureMap;
 import net.minecraft.util.ResourceLocation;
+import spaceCoder.riftcraft.lib.utility.ResourceLocationHelper;
 
 public class Textures
 {
@@ -31,6 +32,9 @@ public class Textures
     public static final String TEMPERALCHEST_TEXTURE      = RESOURCE_PREFIX + BlockNames.TEMPERALCHEST_NAME;
     public static final String DWARFSTARALOY_TEXTURE      = RESOURCE_PREFIX + BlockNames.DWARFSTARALOY_NAME;
     
+    // Texture Models
+    public static final ResourceLocation MODEL_CONTAINEDBLACKHOLE = ResourceLocationHelper.getResourceLocation(MODEL_SHEET_LOCATION + "contained_black_hole.png");
+    public static final ResourceLocation MODEL_CONTAINEDBLACKHOLE_disc = ResourceLocationHelper.getResourceLocation(MODEL_SHEET_LOCATION + "disc.png");
     // Texture Items
 
 }
