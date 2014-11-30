@@ -11,4 +11,7 @@ public class Models
     public static final ResourceLocation CONTAINEDBLACKHOLEDISC = ResourceLocationHelper.getResourceLocation(MODEL_LOCATION + "contained_black_hole_accretion_disc_TEST.obj");
     public static final ResourceLocation CONTAINEDBLACKHOLECONTAINER = ResourceLocationHelper.getResourceLocation(MODEL_LOCATION + "contained_black_hole_container.obj");
     
+    public static final ResourceLocation RIFTMACHINE= ResourceLocationHelper.getResourceLocation(MODEL_LOCATION + "RiftMachien_Base.obj");
+    public static final ResourceLocation RIFTMACHINERING = ResourceLocationHelper.getResourceLocation(MODEL_LOCATION + "RiftMachien_Ring.obj");
+    public static final ResourceLocation RIFTMACHINESUPORT = ResourceLocationHelper.getResourceLocation(MODEL_LOCATION + "RiftMachien_suport.obj");
 }

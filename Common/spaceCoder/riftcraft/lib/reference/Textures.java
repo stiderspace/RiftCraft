@@ -35,6 +35,9 @@ public class Textures
     // Texture Models
     public static final ResourceLocation MODEL_CONTAINEDBLACKHOLE = ResourceLocationHelper.getResourceLocation(MODEL_SHEET_LOCATION + "contained_black_hole.png");
     public static final ResourceLocation MODEL_CONTAINEDBLACKHOLE_disc = ResourceLocationHelper.getResourceLocation(MODEL_SHEET_LOCATION + "disc.png");
+    public static final ResourceLocation MODEL_RIFTMACHINE = ResourceLocationHelper.getResourceLocation(MODEL_SHEET_LOCATION + "suport.png");
+    public static final ResourceLocation MODEL_RIFTMACHINE_RING = ResourceLocationHelper.getResourceLocation(MODEL_SHEET_LOCATION + "ring1.png");
+    
     // Texture Items
 
 }

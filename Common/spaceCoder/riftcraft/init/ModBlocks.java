@@ -8,6 +8,7 @@ import spaceCoder.riftcraft.block.BlockEnergyConverter;
 import spaceCoder.riftcraft.block.BlockEnergyHub;
 import spaceCoder.riftcraft.block.BlockRift;
 import spaceCoder.riftcraft.block.BlockRiftMachine;
+import spaceCoder.riftcraft.block.BlockRiftMachineSuport;
 import spaceCoder.riftcraft.block.BlockTemperalChest;
 import spaceCoder.riftcraft.block.BlockWarpedBlock;
 import spaceCoder.riftcraft.lib.reference.Reference;
@@ -27,6 +28,7 @@ public class ModBlocks
     public static Block ContainedBlackHole;
     public static Block TemperalChest;
     public static Block BlackHoleExtractor;
+    public static Block RiftMachineSuport;
     
     public static void init()
     {
@@ -35,11 +37,14 @@ public class ModBlocks
         Rift = new BlockRift();
         Energyhub = new BlockEnergyHub();
         EnergyConverter = new BlockEnergyConverter();
-        RiftMachine = new BlockRiftMachine();
         ContainedRift = new BlockContainedRift();
         ContainedBlackHole = new BlockContainedBlackHole();
         TemperalChest = new BlockTemperalChest();
         BlackHoleExtractor = new BlockBlackHoleExtractor();
+        
+        //Rift Machine
+        RiftMachine = new BlockRiftMachine();
+        RiftMachineSuport = new BlockRiftMachineSuport();
         
         
         //Register the blocks
