@@ -4,6 +4,7 @@ import net.minecraft.block.Block;
 import spaceCoder.riftcraft.block.BlockBlackHoleExtractor;
 import spaceCoder.riftcraft.block.BlockContainedBlackHole;
 import spaceCoder.riftcraft.block.BlockContainedRift;
+import spaceCoder.riftcraft.block.BlockDwarfStarAlloy;
 import spaceCoder.riftcraft.block.BlockEnergyConverter;
 import spaceCoder.riftcraft.block.BlockEnergyHub;
 import spaceCoder.riftcraft.block.BlockRift;
@@ -29,6 +30,7 @@ public class ModBlocks
     public static Block TemperalChest;
     public static Block BlackHoleExtractor;
     public static Block RiftMachineSuport;
+    public static Block DwarfStarAlloy;
     
     public static void init()
     {
@@ -41,6 +43,7 @@ public class ModBlocks
         ContainedBlackHole = new BlockContainedBlackHole();
         TemperalChest = new BlockTemperalChest();
         BlackHoleExtractor = new BlockBlackHoleExtractor();
+        DwarfStarAlloy = new BlockDwarfStarAlloy();
         
         //Rift Machine
         RiftMachine = new BlockRiftMachine();
@@ -57,7 +60,8 @@ public class ModBlocks
         RegisterHelper.registerBlock(ContainedBlackHole);
         RegisterHelper.registerBlock(TemperalChest);
         RegisterHelper.registerBlock(BlackHoleExtractor);
-       
+        RegisterHelper.registerBlock(DwarfStarAlloy);
+        
   
     }
 }
