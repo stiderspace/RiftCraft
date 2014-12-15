@@ -7,6 +7,6 @@ public class BlockContainedRift extends BlockRC
     public BlockContainedRift()
     {
         super();
-        this.setBlockName(BlockNames.CONTAINEDRIFT_NAME);
+        this.setBlockName(BlockNames.BLOCKNAME_CONTAINEDRIFT);
     }
 }

@@ -4,7 +4,7 @@ import net.minecraft.block.BlockContainer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 import spaceCoder.riftcraft.lib.reference.BlockNames;
-import spaceCoder.riftcraft.lib.reference.RenderIds;
+import spaceCoder.riftcraft.lib.reference.RenderIDs;
 import spaceCoder.riftcraft.tile.TileEntityContainedBlackHole;
 
 
@@ -13,7 +13,7 @@ public class BlockContainedBlackHole extends BlockRC
     public BlockContainedBlackHole()
     {
         super();
-        this.setBlockName(BlockNames.CONTAINEDBLCKHOLE_NAME);
+        this.setBlockName(BlockNames.BLOCKNAME_CONTAINEDBLACKHOLE);
     }
     @Override
     public boolean renderAsNormalBlock()
@@ -24,7 +24,7 @@ public class BlockContainedBlackHole extends BlockRC
     @Override
     public int getRenderType() {
 
-        return RenderIds.CONTAINEDBLACKHOLERENDER;
+        return RenderIDs.RENDER_CONTAINED_BLACK_HOLE;
     }
     @Override
     public boolean isOpaqueCube()

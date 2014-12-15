@@ -1,18 +1,18 @@
 package spaceCoder.riftcraft.block;
 
 import spaceCoder.riftcraft.lib.reference.BlockNames;
-import spaceCoder.riftcraft.lib.reference.RenderIds;
+import spaceCoder.riftcraft.lib.reference.RenderIDs;
 import spaceCoder.riftcraft.tile.TileEntityRiftMachine;
 import net.minecraft.block.Block;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 
-public class BlockRiftMachineSuport extends BlockRC
+public class BlockRiftMachineSupport extends BlockRC
 {
-    public BlockRiftMachineSuport()
+    public BlockRiftMachineSupport()
     {
         super();
-        this.setBlockName(BlockNames.RIFTMACHINE_NAME);
+        this.setBlockName(BlockNames.BLOCKNAME_RIFTMACHINE); //Is dit wel correct? geen apart block?
     }
 
     @Override
@@ -24,7 +24,7 @@ public class BlockRiftMachineSuport extends BlockRC
     @Override
     public int getRenderType()
     {
-        return RenderIds.RIFTMACHIENSUPORT;
+        return RenderIDs.RENDER_RIFT_MACHINE_SUPPORT;
     }
 
     @Override

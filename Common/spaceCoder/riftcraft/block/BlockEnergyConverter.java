@@ -8,6 +8,6 @@ public class BlockEnergyConverter extends BlockRC
     public BlockEnergyConverter()
     {
         super();
-        this.setBlockName(BlockNames.ENERGYCONVERTER_NAME);
+        this.setBlockName(BlockNames.BLOCKNAME_ENERGYCONVERTER);
     }
 }

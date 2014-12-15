@@ -4,7 +4,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 import spaceCoder.riftcraft.lib.reference.BlockNames;
-import spaceCoder.riftcraft.lib.reference.RenderIds;
+import spaceCoder.riftcraft.lib.reference.RenderIDs;
 import spaceCoder.riftcraft.tile.TileEntityContainedBlackHole;
 import spaceCoder.riftcraft.tile.TileEntityRiftMachine;
 
@@ -13,7 +13,7 @@ public class BlockRiftMachine extends BlockRC
     public BlockRiftMachine()
     {
         super();
-        this.setBlockName(BlockNames.RIFTMACHINE_NAME);
+        this.setBlockName(BlockNames.BLOCKNAME_RIFTMACHINE);
     }
 
     @Override
@@ -25,7 +25,7 @@ public class BlockRiftMachine extends BlockRC
     @Override
     public int getRenderType()
     {
-        return RenderIds.RIFTMACHIEN;
+        return RenderIDs.RENDER_RIFT_MACHINE;
     }
 
     @Override

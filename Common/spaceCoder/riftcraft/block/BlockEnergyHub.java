@@ -7,7 +7,7 @@ public class BlockEnergyHub extends BlockRC
     public BlockEnergyHub()
     {
         super();
-        this.setBlockName(BlockNames.ENERGUHUB_NAME);
+        this.setBlockName(BlockNames.BLOCKNAME_ENERGYHUB);
     }
 
 }

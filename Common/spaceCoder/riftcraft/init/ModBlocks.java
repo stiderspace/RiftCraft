@@ -9,7 +9,7 @@ import spaceCoder.riftcraft.block.BlockEnergyConverter;
 import spaceCoder.riftcraft.block.BlockEnergyHub;
 import spaceCoder.riftcraft.block.BlockRift;
 import spaceCoder.riftcraft.block.BlockRiftMachine;
-import spaceCoder.riftcraft.block.BlockRiftMachineSuport;
+import spaceCoder.riftcraft.block.BlockRiftMachineSupport;
 import spaceCoder.riftcraft.block.BlockTemperalChest;
 import spaceCoder.riftcraft.block.BlockWarpedBlock;
 import spaceCoder.riftcraft.lib.reference.Reference;
@@ -35,19 +35,19 @@ public class ModBlocks
     public static void init()
     {
         //Add the blocks
-        WarpedBlock = new BlockWarpedBlock();
-        Rift = new BlockRift();
-        Energyhub = new BlockEnergyHub();
-        EnergyConverter = new BlockEnergyConverter();
-        ContainedRift = new BlockContainedRift();
-        ContainedBlackHole = new BlockContainedBlackHole();
-        TemperalChest = new BlockTemperalChest();
-        BlackHoleExtractor = new BlockBlackHoleExtractor();
-        DwarfStarAlloy = new BlockDwarfStarAlloy();
+        WarpedBlock             = new BlockWarpedBlock();
+        Rift                    = new BlockRift();
+        Energyhub               = new BlockEnergyHub();
+        EnergyConverter         = new BlockEnergyConverter();
+        ContainedRift           = new BlockContainedRift();
+        ContainedBlackHole      = new BlockContainedBlackHole();
+        TemperalChest           = new BlockTemperalChest();
+        BlackHoleExtractor      = new BlockBlackHoleExtractor();
+        DwarfStarAlloy          = new BlockDwarfStarAlloy();
         
         //Rift Machine
-        RiftMachine = new BlockRiftMachine();
-        RiftMachineSuport = new BlockRiftMachineSuport();
+        RiftMachine             = new BlockRiftMachine();
+        RiftMachineSuport       = new BlockRiftMachineSupport();
         
         
         //Register the blocks

@@ -9,7 +9,7 @@ public class ModTile
 {
     public static void init()
     {
-        RegisterHelper.registerTileEntity(TileEntityContainedBlackHole.class, BlockNames.CONTAINEDBLCKHOLE_NAME);
-        RegisterHelper.registerTileEntity(TileEntityRiftMachine.class, BlockNames.RIFTMACHINE_NAME);
+        RegisterHelper.registerTileEntity(TileEntityContainedBlackHole.class, BlockNames.BLOCKNAME_CONTAINEDBLACKHOLE);
+        RegisterHelper.registerTileEntity(TileEntityRiftMachine.class,        BlockNames.BLOCKNAME_RIFTMACHINE);
     }
 }

@@ -7,6 +7,6 @@ public class BlockBlackHoleExtractor extends BlockRC
     public BlockBlackHoleExtractor()
     {
         super();
-        this.setBlockName(BlockNames.BLACKHOLEEXTRACTOR_NAME);
+        this.setBlockName(BlockNames.BLOCKNAME_BLACKHOLEEXTRACTOR);
     }
 }
