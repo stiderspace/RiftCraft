@@ -42,6 +42,3 @@ public class Textures
     public static final String TEXTURE_WARPEDMATTERINGOT  = RESOURCE_PREFIX + ItemNames.ITEMNAME_WARPEDMATTERINGOT;
     
 }
-
-//Kunnen de texture bestanden beginnen met block_ of item_ ? want dit was eerst zo maar dat is veranderd omdat
-//denk ik het anders niet werkt? Hopelijk kan dat wel binnenkort maakt het wel overzichtelijker.
