@@ -16,5 +16,3 @@ public class BlockDwarfStarAlloy extends BlockRC
     }
 
 }
-
-//Nieuwe naam: Carbonite? Dwarfstar is namelijk niet echt origineel en gejat...

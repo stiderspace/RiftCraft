@@ -10,9 +10,9 @@ public class Textures
     public static final String RESOURCE_PREFIX = Reference.MOD_ID.toLowerCase() + ":";
     
     // Base file paths
-    public static final String LOCATION_MODEL_SHEET = "textures/models/";
-    public static final String LOCATION_ARMOR_SHEET = "textures/armor/";
-    public static final String LOCATION_GUI_SHEET   = "textures/gui/";
+    public static final String LOCATION_SHEET_MODEL = "textures/models/";
+    public static final String LOCATION_SHEET_ARMOR = "textures/armor/";
+    public static final String LOCATION_SHEET_GUI  = "textures/gui/";
     public static final String LOCATION_EFFECTS     = "textures/effects/";
 
     // Item/Block sprite sheets
@@ -33,10 +33,10 @@ public class Textures
     public static final String TEXTURE_DWARFSTARALOY      = RESOURCE_PREFIX + BlockNames.BLOCKNAME_DWARFSTARALLOY;
     
     // Texture Models
-    public static final ResourceLocation MODEL_CONTAINEDBLACKHOLE       = ResourceLocationHelper.getResourceLocation(LOCATION_MODEL_SHEET + "contained_black_hole.png");
-    public static final ResourceLocation MODEL_CONTAINEDBLACKHOLE_disc  = ResourceLocationHelper.getResourceLocation(LOCATION_ARMOR_SHEET + "disc.png");
-    public static final ResourceLocation MODEL_RIFTMACHINE              = ResourceLocationHelper.getResourceLocation(LOCATION_GUI_SHEET   + "support.png");
-    public static final ResourceLocation MODEL_RIFTMACHINE_RING         = ResourceLocationHelper.getResourceLocation(LOCATION_EFFECTS     + "ring1.png");
+    public static final ResourceLocation MODEL_CONTAINEDBLACKHOLE       = ResourceLocationHelper.getResourceLocation(LOCATION_SHEET_MODEL + "contained_black_hole.png");
+    public static final ResourceLocation MODEL_CONTAINEDBLACKHOLE_disc  = ResourceLocationHelper.getResourceLocation(LOCATION_SHEET_MODEL + "disc.png");
+    public static final ResourceLocation MODEL_RIFTMACHINE              = ResourceLocationHelper.getResourceLocation(LOCATION_SHEET_MODEL + "support.png");
+    public static final ResourceLocation MODEL_RIFTMACHINE_RING         = ResourceLocationHelper.getResourceLocation(LOCATION_SHEET_MODEL + "ring1.png");
     
     // Texture Items
     public static final String TEXTURE_WARPEDMATTERINGOT  = RESOURCE_PREFIX + ItemNames.ITEMNAME_WARPEDMATTERINGOT;
