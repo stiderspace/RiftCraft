@@ -1,10 +1,9 @@
 package spaceCoder.riftcraft.block;
 
-import net.minecraft.block.BlockContainer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 import spaceCoder.riftcraft.lib.reference.BlockNames;
-import spaceCoder.riftcraft.lib.reference.RenderIDs;
+import spaceCoder.riftcraft.lib.reference.RenderIds;
 import spaceCoder.riftcraft.tile.TileEntityContainedBlackHole;
 
 
@@ -24,7 +23,7 @@ public class BlockContainedBlackHole extends BlockRC
     @Override
     public int getRenderType() {
 
-        return RenderIDs.RENDER_CONTAINED_BLACK_HOLE;
+        return RenderIds.RENDER_CONTAINED_BLACK_HOLE;
     }
     @Override
     public boolean isOpaqueCube()

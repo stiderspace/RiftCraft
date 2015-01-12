@@ -2,7 +2,7 @@ package spaceCoder.riftcraft.lib.reference;
 
 import cpw.mods.fml.client.registry.RenderingRegistry;
 
-public class RenderIDs
+public class RenderIds
 {
     public static int RENDER_CONTAINED_BLACK_HOLE          = RenderingRegistry.getNextAvailableRenderId();
     public static int RENDER_RIFT_MACHINE                  = RenderingRegistry.getNextAvailableRenderId();

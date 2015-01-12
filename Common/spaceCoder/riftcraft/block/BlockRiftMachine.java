@@ -1,11 +1,9 @@
 package spaceCoder.riftcraft.block;
 
-import net.minecraft.block.material.Material;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 import spaceCoder.riftcraft.lib.reference.BlockNames;
-import spaceCoder.riftcraft.lib.reference.RenderIDs;
-import spaceCoder.riftcraft.tile.TileEntityContainedBlackHole;
+import spaceCoder.riftcraft.lib.reference.RenderIds;
 import spaceCoder.riftcraft.tile.TileEntityRiftMachine;
 
 public class BlockRiftMachine extends BlockRC
@@ -25,7 +23,7 @@ public class BlockRiftMachine extends BlockRC
     @Override
     public int getRenderType()
     {
-        return RenderIDs.RENDER_RIFT_MACHINE;
+        return RenderIds.RENDER_RIFT_MACHINE;
     }
 
     @Override

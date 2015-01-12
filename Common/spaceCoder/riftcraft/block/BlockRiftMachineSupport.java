@@ -1,12 +1,10 @@
 package spaceCoder.riftcraft.block;
 
-import spaceCoder.riftcraft.lib.reference.BlockNames;
-import spaceCoder.riftcraft.lib.reference.RenderIDs;
-import spaceCoder.riftcraft.tile.TileEntityRiftMachine;
-import spaceCoder.riftcraft.tile.TileEntityRiftMachineSupport;
-import net.minecraft.block.Block;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
+import spaceCoder.riftcraft.lib.reference.BlockNames;
+import spaceCoder.riftcraft.lib.reference.RenderIds;
+import spaceCoder.riftcraft.tile.TileEntityRiftMachineSupport;
 
 public class BlockRiftMachineSupport extends BlockRC
 {
@@ -25,7 +23,7 @@ public class BlockRiftMachineSupport extends BlockRC
     @Override
     public int getRenderType()
     {
-        return RenderIDs.RENDER_RIFT_MACHINE_SUPPORT;
+        return RenderIds.RENDER_RIFT_MACHINE_SUPPORT;
     }
 
     @Override
