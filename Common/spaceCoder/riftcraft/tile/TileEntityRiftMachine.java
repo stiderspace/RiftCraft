@@ -22,15 +22,15 @@ public class TileEntityRiftMachine extends TileEntity
     // update tile
     public void updateEntity()
     {
-        if(rotation > -355)
-        {
-            rotation = rotation + 1 ;
-        }
-        else
-        {
-            rotation = 0;
-        }
-        
+//        if(rotation > -355)
+//        {
+//            rotation = rotation + 1 ;
+//        }
+//        else
+//        {
+//            rotation = 0;
+//        }
+//        
         //Energy++;
         //LogHelper.info(rotation);
     }

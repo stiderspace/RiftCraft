@@ -29,7 +29,7 @@ public class RenderRiftMachineSupport extends TileEntitySpecialRenderer
         float scale = .5F;
         GL11.glPushMatrix();
             GL11.glPushMatrix();
-            GL11.glTranslated(posX + 5, posY + .5, posZ); 
+            GL11.glTranslated(posX + 4.5, posY, posZ +.5); 
             GL11.glScalef(scale, scale, scale);
             FMLClientHandler.instance().getClient().getTextureManager().bindTexture(Textures.MODEL_RIFTMACHINE_SUPPORT);
             support.renderAll();
