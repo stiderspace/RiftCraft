@@ -37,6 +37,7 @@ public class Textures
     public static final ResourceLocation MODEL_CONTAINEDBLACKHOLE_disc  = ResourceLocationHelper.getResourceLocation(LOCATION_SHEET_MODEL + "disc.png");
     public static final ResourceLocation MODEL_RIFTMACHINE              = ResourceLocationHelper.getResourceLocation(LOCATION_SHEET_MODEL + "support.png");
     public static final ResourceLocation MODEL_RIFTMACHINE_RING         = ResourceLocationHelper.getResourceLocation(LOCATION_SHEET_MODEL + "ring1.png");
+    public static final ResourceLocation MODEL_RIFTMACHINE_SUPPORT      = ResourceLocationHelper.getResourceLocation(LOCATION_SHEET_MODEL + "support.png");
     
     // Texture Items
     public static final String TEXTURE_WARPEDMATTERINGOT  = RESOURCE_PREFIX + ItemNames.ITEMNAME_WARPEDMATTERINGOT;

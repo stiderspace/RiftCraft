@@ -38,5 +38,4 @@ public class BlockRiftMachine extends BlockRC
     {
         return new TileEntityRiftMachine();
     }
-
 }

@@ -29,7 +29,7 @@ public class ModBlocks
     public static Block ContainedBlackHole;
     public static Block TemperalChest;
     public static Block BlackHoleExtractor;
-    public static Block RiftMachineSuport;
+    public static Block RiftMachineSupport;
     public static Block DwarfStarAlloy;
     
     public static void init()
@@ -47,7 +47,7 @@ public class ModBlocks
         
         //Rift Machine
         RiftMachine             = new BlockRiftMachine();
-        RiftMachineSuport       = new BlockRiftMachineSupport();
+        RiftMachineSupport       = new BlockRiftMachineSupport();
         
         
         //Register the blocks
@@ -56,6 +56,7 @@ public class ModBlocks
         RegisterHelper.registerBlock(Energyhub);
         RegisterHelper.registerBlock(EnergyConverter);
         RegisterHelper.registerBlock(RiftMachine);
+        RegisterHelper.registerBlock(RiftMachineSupport);
         RegisterHelper.registerBlock(ContainedRift);
         RegisterHelper.registerBlock(ContainedBlackHole);
         RegisterHelper.registerBlock(TemperalChest);

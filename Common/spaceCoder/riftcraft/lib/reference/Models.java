@@ -13,5 +13,5 @@ public class Models
     
     public static final ResourceLocation RIFTMACHINE                    = ResourceLocationHelper.getResourceLocation(MODEL_LOCATION + "RiftMachine_Base.obj");
     public static final ResourceLocation RIFTMACHINERING                = ResourceLocationHelper.getResourceLocation(MODEL_LOCATION + "RiftMachine_Ring.obj");
-    public static final ResourceLocation RIFTMACHINESUPORT              = ResourceLocationHelper.getResourceLocation(MODEL_LOCATION + "RiftMachine_support.obj");
+    public static final ResourceLocation RIFTMACHINESUPPORT             = ResourceLocationHelper.getResourceLocation(MODEL_LOCATION + "RiftMachine_support.obj");
 }
