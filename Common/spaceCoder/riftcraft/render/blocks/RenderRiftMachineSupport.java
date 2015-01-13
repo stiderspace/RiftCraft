@@ -34,5 +34,6 @@ public class RenderRiftMachineSupport extends TileEntitySpecialRenderer
             FMLClientHandler.instance().getClient().getTextureManager().bindTexture(Textures.MODEL_RIFTMACHINE_SUPPORT);
             support.renderAll();
         GL11.glPopMatrix();
+        GL11.glPopMatrix();
     }
 }

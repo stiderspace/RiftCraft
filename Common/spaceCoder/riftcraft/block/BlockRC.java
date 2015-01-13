@@ -15,6 +15,7 @@ public class BlockRC extends BlockContainer
     public BlockRC(Material material)
     {
         super(material);
+        this.setHardness(5F);
         this.setCreativeTab(CreativeTabRFC.RFC_TAB);
     }
     public BlockRC()
