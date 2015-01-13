@@ -1,6 +1,5 @@
 package spaceCoder.riftcraft.lib.reference;
 
-import net.minecraft.block.Block;
 
 public class BlockNames 
 {

@@ -2,6 +2,7 @@ package spaceCoder.riftcraft.lib.reference;
 
 public class Reference
 {
+	//Riftcraft Alpha lel
     public static final String MOD_ID             = "Riftcraft";
     public static final String MOD_NAME           = "Riftcraft";
     public static final String FINGERPRINT        = "@Fingerprint@";

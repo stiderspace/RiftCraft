@@ -1,8 +1,8 @@
 package spaceCoder.riftcraft.creativeTabs;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
+import spaceCoder.riftcraft.init.ModBlocks;
 import spaceCoder.riftcraft.lib.reference.Reference;
 
 public class CreativeTabRFC
@@ -12,7 +12,8 @@ public class CreativeTabRFC
         @Override
         public Item getTabIconItem()
         {
-            return Items.apple;
+            //return Items.apple;
+        	return Item.getItemFromBlock(ModBlocks.WarpedBlock);
         }
     };
 

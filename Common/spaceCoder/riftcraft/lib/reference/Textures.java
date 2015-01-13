@@ -42,4 +42,6 @@ public class Textures
     // Texture Items
     public static final String TEXTURE_WARPEDMATTERINGOT  = RESOURCE_PREFIX + ItemNames.ITEMNAME_WARPEDMATTERINGOT;
     
+    // Other Textures
+    
 }
