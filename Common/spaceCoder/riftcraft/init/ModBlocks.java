@@ -10,8 +10,8 @@ import spaceCoder.riftcraft.block.BlockEnergyHub;
 import spaceCoder.riftcraft.block.BlockRift;
 import spaceCoder.riftcraft.block.BlockRiftMachine;
 import spaceCoder.riftcraft.block.BlockRiftMachineSupport;
-import spaceCoder.riftcraft.block.BlockTemperalChest;
-import spaceCoder.riftcraft.block.BlockWarpedBlock;
+import spaceCoder.riftcraft.block.BlockTemporalChest;
+import spaceCoder.riftcraft.block.BlockWarpedMatter;
 import spaceCoder.riftcraft.lib.reference.Reference;
 import spaceCoder.riftcraft.lib.utility.RegisterHelper;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -20,7 +20,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class ModBlocks
 {
     //Declare the blocks
-	public static Block WarpedBlock;
+	public static Block WarpedMatter;
 	public static Block Rift;
     public static Block Energyhub;
     public static Block EnergyConverter;
@@ -35,23 +35,23 @@ public class ModBlocks
     public static void init()
     {
         //Add the blocks
-        WarpedBlock             = new BlockWarpedBlock();
+        WarpedMatter            = new BlockWarpedMatter();
         Rift                    = new BlockRift();
         Energyhub               = new BlockEnergyHub();
         EnergyConverter         = new BlockEnergyConverter();
         ContainedRift           = new BlockContainedRift();
         ContainedBlackHole      = new BlockContainedBlackHole();
-        TemperalChest           = new BlockTemperalChest();
+        TemperalChest           = new BlockTemporalChest();
         BlackHoleExtractor      = new BlockBlackHoleExtractor();
         DwarfStarAlloy          = new BlockDwarfStarAlloy();
         
         //Rift Machine
         RiftMachine             = new BlockRiftMachine();
-        RiftMachineSupport       = new BlockRiftMachineSupport();
+        RiftMachineSupport      = new BlockRiftMachineSupport();
         
         
         //Register the blocks
-        RegisterHelper.registerBlock(WarpedBlock);
+        RegisterHelper.registerBlock(WarpedMatter);
         RegisterHelper.registerBlock(Rift);
         RegisterHelper.registerBlock(Energyhub);
         RegisterHelper.registerBlock(EnergyConverter);

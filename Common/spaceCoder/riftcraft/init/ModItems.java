@@ -10,14 +10,14 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class ModItems
 {
     //Declare the items
-    public static Item ItemWarpedMatterIngot;
+    public static Item WarpedMatterIngot;
     
     public static void init()
     {
         //Add the items
-        ItemWarpedMatterIngot             = new ItemWarpedMatterIngot();
+        WarpedMatterIngot             = new ItemWarpedMatterIngot();
         
         //Register the items
-        RegisterHelper.registerItem(ItemWarpedMatterIngot);
+        RegisterHelper.registerItem(WarpedMatterIngot);
     }
 }

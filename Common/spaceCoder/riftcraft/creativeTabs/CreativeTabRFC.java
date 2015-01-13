@@ -13,7 +13,7 @@ public class CreativeTabRFC
         public Item getTabIconItem()
         {
             //return Items.apple;
-        	return Item.getItemFromBlock(ModBlocks.WarpedBlock);
+        	return Item.getItemFromBlock(ModBlocks.WarpedMatter);
         }
     };
 

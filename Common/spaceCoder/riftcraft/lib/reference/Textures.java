@@ -12,7 +12,7 @@ public class Textures
     // Base file paths
     public static final String LOCATION_SHEET_MODEL = "textures/models/";
     public static final String LOCATION_SHEET_ARMOR = "textures/armor/";
-    public static final String LOCATION_SHEET_GUI  = "textures/gui/";
+    public static final String LOCATION_SHEET_GUI   = "textures/gui/";
     public static final String LOCATION_EFFECTS     = "textures/effects/";
 
     // Item/Block sprite sheets
@@ -21,15 +21,15 @@ public class Textures
     
     
     // Texture Blocks
-    public static final String TEXTURE_WARPEDBLOCK        = RESOURCE_PREFIX + BlockNames.BLOCKNAME_WARPEDBLOCK;
+    public static final String TEXTURE_WARPEDMATTER       = RESOURCE_PREFIX + BlockNames.BLOCKNAME_WARPEDMATTER;
     public static final String TEXTURE_RIFT               = RESOURCE_PREFIX + BlockNames.BLOCKNAME_RIFT;
     public static final String TEXTURE_BLACKHOLEEXTRACTOR = RESOURCE_PREFIX + BlockNames.BLOCKNAME_BLACKHOLEEXTRACTOR;
-    public static final String TEXTURE_ENERGUHUB          = RESOURCE_PREFIX + BlockNames.BLOCKNAME_ENERGYHUB;
+    public static final String TEXTURE_ENERGYHUB          = RESOURCE_PREFIX + BlockNames.BLOCKNAME_ENERGYHUB;
     public static final String TEXTURE_ENERGYCONVERTER    = RESOURCE_PREFIX + BlockNames.BLOCKNAME_ENERGYCONVERTER;
     public static final String TEXTURE_RIFTMACHINE        = RESOURCE_PREFIX + BlockNames.BLOCKNAME_RIFTMACHINE;
     public static final String TEXTURE_CONTAINEDRIFT      = RESOURCE_PREFIX + BlockNames.BLOCKNAME_CONTAINEDRIFT;
-    public static final String TEXTURE_CONTAINEDBLCKHOLE  = RESOURCE_PREFIX + BlockNames.BLOCKNAME_CONTAINEDBLACKHOLE;
-    public static final String TEXTURE_TEMPERALCHEST      = RESOURCE_PREFIX + BlockNames.BLOCKNAME_TEMPERALCHEST;
+    public static final String TEXTURE_CONTAINEDBLACKHOLE = RESOURCE_PREFIX + BlockNames.BLOCKNAME_CONTAINEDBLACKHOLE;
+    public static final String TEXTURE_TEMPORALCHEST      = RESOURCE_PREFIX + BlockNames.BLOCKNAME_TEMPORALCHEST;
     public static final String TEXTURE_DWARFSTARALOY      = RESOURCE_PREFIX + BlockNames.BLOCKNAME_DWARFSTARALLOY;
     
     // Texture Models

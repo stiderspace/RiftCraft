@@ -4,8 +4,15 @@
 itemGroup.riftcraft=RiftCraft
 
 # Items
-
+tile.riftcraft:ItemWarpedMatterIngot.name=Warped Matter Ingot
 
 # Blocks
 tile.riftcraft:Rift.name=Rift
-tile.riftcraft:WarpedBlock.name=Warped Matter
+tile.riftcraft:WarpedMatter.name=Warped Matter
+tile.riftcraft:Energyhub.name=Energy Hub
+tile.riftcraft:EnergyConverter.name=Energy Converter
+tile.riftcraft:ContainedRift.name=Contained Rift
+tile.riftcraft:ContainedBlackHole.name=Contained Black Hole
+tile.riftcraft:TemporalChest.name=Temporal Chest
+tile.riftcraft:BlackHoleExtractor.name=Black Hole Extractor
+tile.riftcraft:DwarfStarAlloy.name=Hello Sweetie

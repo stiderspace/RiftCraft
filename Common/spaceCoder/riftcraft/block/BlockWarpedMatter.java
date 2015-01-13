@@ -5,12 +5,12 @@ import spaceCoder.riftcraft.lib.reference.BlockNames;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
-public class BlockWarpedBlock extends BlockRC {
+public class BlockWarpedMatter extends BlockRC {
 	
-	public BlockWarpedBlock(){
+	public BlockWarpedMatter(){
 		
 		super(Material.glass);
-		this.setBlockName(BlockNames.BLOCKNAME_WARPEDBLOCK);
+		this.setBlockName(BlockNames.BLOCKNAME_WARPEDMATTER);
 		//setCreativeTab(Riftcraft.tabsRFC);
 		this.setHardness(5F);
 		this.setStepSound(soundTypeAnvil);
