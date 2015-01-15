@@ -4,6 +4,7 @@ import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.client.model.AdvancedModelLoader;
 import net.minecraftforge.client.model.IModelCustom;
+import net.minecraftforge.common.util.ForgeDirection;
 
 import org.lwjgl.opengl.GL11;
 
@@ -26,14 +27,17 @@ public class RenderRiftMachineSupport extends TileEntitySpecialRenderer
     {
         if(!(tileEntity instanceof TileEntityRiftMachineSupport)) return;
         TileEntityRiftMachineSupport tileEntityRiftMachinesupport = (TileEntityRiftMachineSupport) tileEntity;
+        
+        ForgeDirection direction = null;
+
         float scale = .5F;
         GL11.glPushMatrix();
-            GL11.glPushMatrix();
             GL11.glTranslated(posX + 4.5, posY, posZ +.5); 
             GL11.glScalef(scale, scale, scale);
             FMLClientHandler.instance().getClient().getTextureManager().bindTexture(Textures.MODEL_RIFTMACHINE_SUPPORT);
-            support.renderAll();
-        GL11.glPopMatrix();
+            GL11.glPushMatrix();
+                support.renderAll();
+            GL11.glPopMatrix();    
         GL11.glPopMatrix();
     }
 }
