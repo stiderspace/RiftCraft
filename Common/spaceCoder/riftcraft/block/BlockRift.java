@@ -26,14 +26,14 @@ public class BlockRift extends BlockRC
 
     @Override
     public void onEntityCollidedWithBlock(World world, int x, int y, int z, Entity entity) {
-        MinecraftServer Server = MinecraftServer.getServer();
-        EntityPlayerMP player = (EntityPlayerMP) entity;
+        //MinecraftServer Server = MinecraftServer.getServer();
+        //EntityPlayerMP player = (EntityPlayerMP) entity;
         if (entity.ridingEntity == null && entity.riddenByEntity == null && !world.isRemote) {
             
-            entity.travelToDimension(DimensionIds.SUBZERO);
+            entity.travelToDimension(1);
             //player.mcServer.getConfigurationManager().transferPlayerToDimension(player, DimensionIds.SUBZERO, new TeleporterRift(Server.worldServerForDimension(DimensionIds.SUBZERO)));
             
-        }else if(player.dimension == DimensionIds.SUBZERO){
+        }else if(entity.dimension == 1){
             entity.travelToDimension(0);
             //player.mcServer.getConfigurationManager().transferPlayerToDimension(player, DimensionIds.SUBZERO, new TeleporterRift(Server.worldServerForDimension(DimensionIds.SUBZERO)));
         }
@@ -42,13 +42,13 @@ public class BlockRift extends BlockRC
     public void setBlockBoundsBasedOnState(IBlockAccess Access, int par2, int par3, int par4)
     {
         float f = 0.0625f;
-        this.setBlockBounds(-1.0F, 0.0F, 0.0F, 2.0F, 3.0f, 1.0F);
+        this.setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 1.0f, 1.0F);
     }
 
     public void addCollisionBoxesToList(World world, int x, int y, int z, AxisAlignedBB aabb, List list, Entity entity)
     {
 
-        this.setBlockBounds(-1.0F, 0.0F, 0.0F, 2.0F, 3.0f, 1.0F);
+        this.setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 1.0f, 1.0F);
     }
 
 }
