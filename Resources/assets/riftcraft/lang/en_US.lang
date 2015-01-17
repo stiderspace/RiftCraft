@@ -16,3 +16,10 @@ tile.riftcraft:ContainedBlackHole.name=Contained Black Hole
 tile.riftcraft:TemporalChest.name=Temporal Chest
 tile.riftcraft:BlackHoleExtractor.name=Black Hole Extractor
 tile.riftcraft:DwarfStarAlloy.name=Hello Sweetie
+
+tile.riftcraft:CrystalOreBlue.name=Blue Crystal Ore
+
+# Blocks - Subzero Dimension
+tile.riftcraft:SubzeroMatter.name=Subzero Matter
+tile.riftcraft:SubzeroCrystalOre.name=Subzero Crystal Ore
+tile.riftcraft:SubzeroIce.name=Subzero Ice

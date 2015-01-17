@@ -25,6 +25,7 @@ public class BlockContainedBlackHole extends BlockRC
 
         return RenderIds.RENDER_CONTAINED_BLACK_HOLE;
     }
+    
     @Override
     public boolean isOpaqueCube()
     {

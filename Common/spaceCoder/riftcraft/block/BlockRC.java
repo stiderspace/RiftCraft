@@ -10,7 +10,7 @@ import spaceCoder.riftcraft.lib.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class BlockRC extends BlockContainer
+public class BlockRC extends BlockContainer 
 {
     public BlockRC(Material material)
     {

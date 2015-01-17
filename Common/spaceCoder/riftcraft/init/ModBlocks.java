@@ -4,6 +4,7 @@ import net.minecraft.block.Block;
 import spaceCoder.riftcraft.block.BlockBlackHoleExtractor;
 import spaceCoder.riftcraft.block.BlockContainedBlackHole;
 import spaceCoder.riftcraft.block.BlockContainedRift;
+import spaceCoder.riftcraft.block.BlockCrystalOre;
 import spaceCoder.riftcraft.block.BlockDwarfStarAlloy;
 import spaceCoder.riftcraft.block.BlockEnergyConverter;
 import spaceCoder.riftcraft.block.BlockEnergyHub;
@@ -12,6 +13,9 @@ import spaceCoder.riftcraft.block.BlockRiftMachine;
 import spaceCoder.riftcraft.block.BlockRiftMachineSupport;
 import spaceCoder.riftcraft.block.BlockTemporalChest;
 import spaceCoder.riftcraft.block.BlockWarpedMatter;
+import spaceCoder.riftcraft.block.dimension.BlockSubzeroCrystalOre;
+import spaceCoder.riftcraft.block.dimension.BlockSubzeroIce;
+import spaceCoder.riftcraft.block.dimension.BlockSubzeroMatter;
 import spaceCoder.riftcraft.lib.reference.Reference;
 import spaceCoder.riftcraft.lib.utility.RegisterHelper;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -32,6 +36,12 @@ public class ModBlocks
     public static Block RiftMachineSupport;
     public static Block DwarfStarAlloy;
     
+    public static Block CrystalOre;
+    
+    public static Block SubzeroMatter;
+    public static Block SubzeroIce;
+    public static Block SubzeroCrystalOre;
+    
     public static void init()
     {
         //Add the blocks
@@ -49,6 +59,12 @@ public class ModBlocks
         RiftMachine             = new BlockRiftMachine();
         RiftMachineSupport      = new BlockRiftMachineSupport();
         
+        CrystalOre				= new BlockCrystalOre();
+        
+        SubzeroMatter			= new BlockSubzeroMatter();
+        SubzeroIce				= new BlockSubzeroIce();
+        SubzeroCrystalOre		= new BlockSubzeroCrystalOre();
+        
         
         //Register the blocks
         RegisterHelper.registerBlock(WarpedMatter);
@@ -63,7 +79,11 @@ public class ModBlocks
         RegisterHelper.registerBlock(BlackHoleExtractor);
         RegisterHelper.registerBlock(DwarfStarAlloy);
         
-  
+        RegisterHelper.registerBlock(CrystalOre);
+        
+        RegisterHelper.registerBlock(SubzeroMatter);
+        RegisterHelper.registerBlock(SubzeroIce);
+        RegisterHelper.registerBlock(SubzeroCrystalOre);
     }
 }
 

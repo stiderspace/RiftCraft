@@ -3,6 +3,7 @@ package spaceCoder.riftcraft.lib.reference;
 
 public class BlockNames 
 {
+	//Basic Blocks
 	public static final String BLOCKNAME_WARPEDMATTER       = "WarpedMatter";
 	public static final String BLOCKNAME_RIFT		        = "Rift";
 	public static final String BLOCKNAME_BLACKHOLEEXTRACTOR = "BlackHoleExtractor";
@@ -14,5 +15,11 @@ public class BlockNames
 	public static final String BLOCKNAME_CONTAINEDBLACKHOLE = "ContainedBlackHole";
 	public static final String BLOCKNAME_TEMPORALCHEST      = "TemporalChest";
 	public static final String BLOCKNAME_DWARFSTARALLOY     = "DwarfStarAlloy";
+	
+	public static final String BLOCKNAME_CRYSTALORE			= "CrystalOreBlue";
 
+	//Dimension Blocks
+	public static final String BLOCKNAME_SUBZEROMATTER		= "SubzeroMatter";
+	public static final String BLOCKNAME_SUBZEROICE			= "SubzeroIce";
+	public static final String BLOCKNAME_SUBZEROCRYSTALORE	= "SubzeroCrystalOre";
 }
