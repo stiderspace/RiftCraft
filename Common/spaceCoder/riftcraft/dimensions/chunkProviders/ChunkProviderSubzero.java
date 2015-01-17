@@ -1,4 +1,4 @@
-package spaceCoder.riftcraft.init;
+package spaceCoder.riftcraft.dimensions.chunkProviders;
 
 import java.util.List;
 

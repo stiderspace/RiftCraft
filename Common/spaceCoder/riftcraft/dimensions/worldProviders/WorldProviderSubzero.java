@@ -1,9 +1,10 @@
-package spaceCoder.riftcraft.init;
+package spaceCoder.riftcraft.dimensions.worldProviders;
 
 import net.minecraft.world.WorldProvider;
 import net.minecraft.world.biome.BiomeGenBase;
 import net.minecraft.world.biome.WorldChunkManagerHell;
 import net.minecraft.world.chunk.IChunkProvider;
+import spaceCoder.riftcraft.dimensions.chunkProviders.ChunkProviderSubzero;
 import spaceCoder.riftcraft.lib.reference.DimensionIds;
 
 public class WorldProviderSubzero extends WorldProvider
