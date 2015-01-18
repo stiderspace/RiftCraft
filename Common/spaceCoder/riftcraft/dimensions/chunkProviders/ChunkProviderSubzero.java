@@ -1,7 +1,11 @@
 package spaceCoder.riftcraft.dimensions.chunkProviders;
 
-import static net.minecraftforge.event.terraingen.InitMapGenEvent.EventType.*;
-import static net.minecraftforge.event.terraingen.PopulateChunkEvent.Populate.EventType.*;
+import static net.minecraftforge.event.terraingen.InitMapGenEvent.EventType.CAVE;
+import static net.minecraftforge.event.terraingen.InitMapGenEvent.EventType.RAVINE;
+import static net.minecraftforge.event.terraingen.InitMapGenEvent.EventType.SCATTERED_FEATURE;
+import static net.minecraftforge.event.terraingen.PopulateChunkEvent.Populate.EventType.ICE;
+import static net.minecraftforge.event.terraingen.PopulateChunkEvent.Populate.EventType.LAKE;
+import static net.minecraftforge.event.terraingen.PopulateChunkEvent.Populate.EventType.LAVA;
 
 import java.util.List;
 import java.util.Random;
@@ -53,28 +57,28 @@ public class ChunkProviderSubzero implements IChunkProvider
         this.rand = new Random(seed);
     }
 
-    @Override
+    
     public boolean chunkExists(int p_73149_1_, int p_73149_2_)
     {
         // TODO Auto-generated method stub
         return false;
     }
 
-    @Override
+    
     public Chunk provideChunk(int i, int j)
     {
         // TODO Auto-generated method stub
         return null;
     }
 
-    @Override
+    
     public Chunk loadChunk(int i, int j)
     {
         // TODO Auto-generated method stub
         return null;
     }
 
-    @Override
+    
     public void populate(IChunkProvider ichunkprovider, int chunkX, int chunkZ)
     {
         BlockSand.fallInstantly = true;
@@ -142,55 +146,59 @@ public class ChunkProviderSubzero implements IChunkProvider
         BlockSand.fallInstantly = false;
     }
 
-    @Override
+    
     public boolean saveChunks(boolean flag, IProgressUpdate iprogressupdate)
     {
         return true;
     }
 
-    @Override
+    
     public boolean unloadQueuedChunks()
     {
 
         return false;
     }
 
-    @Override
+    
     public boolean canSave()
     {
 
         return true;
     }
 
-    @Override
+    
     public String makeString()
     {
 
         return "RandomLevelSource";
     }
 
-    @Override
+    
     public List getPossibleCreatures(EnumCreatureType enumcreaturetype, int par1, int par2, int par3)
     {
         return null;
     }
 
-    @Override
+    
     public ChunkPosition func_147416_a(World world, String string, int par1, int par2, int par3)
     {
         return null;
     }
 
-    @Override
+    
     public int getLoadedChunkCount()
     {
         return 0;
     }
 
-    @Override
-    public void recreateStructures(int par1, int par2){}
+  
+    public void recreateStructures(int par1, int par2)
+    {
+        if(this.mapFeaturesEnabled){
+            this.scatteredFeatureGenerator.func_151539_a(this, worldObj, par1, par2, (Block[])null);       }
+    }
 
-    @Override
+    
     public void saveExtraData(){}
 
 }

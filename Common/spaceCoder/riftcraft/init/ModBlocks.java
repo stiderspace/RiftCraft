@@ -8,6 +8,7 @@ import spaceCoder.riftcraft.block.BlockCrystalOre;
 import spaceCoder.riftcraft.block.BlockDwarfStarAlloy;
 import spaceCoder.riftcraft.block.BlockEnergyConverter;
 import spaceCoder.riftcraft.block.BlockEnergyHub;
+import spaceCoder.riftcraft.block.BlockHellfireOre;
 import spaceCoder.riftcraft.block.BlockRift;
 import spaceCoder.riftcraft.block.BlockRiftMachine;
 import spaceCoder.riftcraft.block.BlockRiftMachineSupport;
@@ -38,6 +39,8 @@ public class ModBlocks
     
     public static Block CrystalOre;
     
+    public static Block HellfireOre;
+    
     public static Block SubzeroMatter;
     public static Block SubzeroIce;
     public static Block SubzeroCrystalOre;
@@ -55,15 +58,16 @@ public class ModBlocks
         BlackHoleExtractor      = new BlockBlackHoleExtractor();
         DwarfStarAlloy          = new BlockDwarfStarAlloy();
         
-        //Rift Machine
-        RiftMachine             = new BlockRiftMachine();
-        RiftMachineSupport      = new BlockRiftMachineSupport();
-        
         CrystalOre				= new BlockCrystalOre();
+        HellfireOre				= new BlockHellfireOre();
         
         SubzeroMatter			= new BlockSubzeroMatter();
         SubzeroIce				= new BlockSubzeroIce();
         SubzeroCrystalOre		= new BlockSubzeroCrystalOre();
+        
+        //Rift Machine
+        RiftMachine             = new BlockRiftMachine();
+        RiftMachineSupport      = new BlockRiftMachineSupport();
         
         
         //Register the blocks
@@ -80,6 +84,7 @@ public class ModBlocks
         RegisterHelper.registerBlock(DwarfStarAlloy);
         
         RegisterHelper.registerBlock(CrystalOre);
+        RegisterHelper.registerBlock(HellfireOre);
         
         RegisterHelper.registerBlock(SubzeroMatter);
         RegisterHelper.registerBlock(SubzeroIce);

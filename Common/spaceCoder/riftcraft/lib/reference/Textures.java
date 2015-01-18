@@ -32,6 +32,8 @@ public class Textures
     public static final String TEXTURE_TEMPORALCHEST      = RESOURCE_PREFIX + BlockNames.BLOCKNAME_TEMPORALCHEST;
     public static final String TEXTURE_DWARFSTARALOY      = RESOURCE_PREFIX + BlockNames.BLOCKNAME_DWARFSTARALLOY;
     
+    public static final String TEXTURE_CRYSTALOREBLUE	  = RESOURCE_PREFIX + BlockNames.BLOCKNAME_CRYSTALORE;
+    
     public static final String TEXTURE_SUBZEROMATTER	  = RESOURCE_PREFIX + BlockNames.BLOCKNAME_SUBZEROMATTER;
     public static final String TEXTURE_SUBZEROICE		  = RESOURCE_PREFIX + BlockNames.BLOCKNAME_SUBZEROICE;
     public static final String TEXTURE_SUBZEROCRYSTALORE  = RESOURCE_PREFIX + BlockNames.BLOCKNAME_SUBZEROCRYSTALORE;
@@ -45,6 +47,13 @@ public class Textures
     
     // Texture Items
     public static final String TEXTURE_WARPEDMATTERINGOT  = RESOURCE_PREFIX + ItemNames.ITEMNAME_WARPEDMATTERINGOT;
+    
+    public static final String TEXTURE_HELLFIREDUST	  	  = RESOURCE_PREFIX + ItemNames.ITEMNAME_HELLFIREDUST;
+    public static final String TEXTURE_HELLFIREINGOT	  = RESOURCE_PREFIX + ItemNames.ITEMNAME_HELLFIREINGOT;
+    public static final String TEXTURE_HELLFIREHELMET	  = RESOURCE_PREFIX + ItemNames.ITEMNAME_HELLFIREHELMET;
+    public static final String TEXTURE_HELLFIRECHESTPLATE = RESOURCE_PREFIX + ItemNames.ITEMNAME_HELLFIRECHESTPLATE;
+    public static final String TEXTURE_HELLFIRELEGGINGS	  = RESOURCE_PREFIX + ItemNames.ITEMNAME_HELLFIRELEGGINGS;
+    public static final String TEXTURE_HELLFIREBOOTS	  = RESOURCE_PREFIX + ItemNames.ITEMNAME_HELLFIREBOOTS;
     
     // Other Textures
     

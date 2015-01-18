@@ -17,6 +17,8 @@ public class BlockNames
 	public static final String BLOCKNAME_DWARFSTARALLOY     = "DwarfStarAlloy";
 	
 	public static final String BLOCKNAME_CRYSTALORE			= "CrystalOreBlue";
+	
+	public static final String BLOCKNAME_HELLFIREORE		= "HellfireOre";
 
 	//Dimension Blocks
 	public static final String BLOCKNAME_SUBZEROMATTER		= "SubzeroMatter";
