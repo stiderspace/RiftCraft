@@ -40,28 +40,28 @@ public class RenderItemRiftMachineSupport implements IItemRenderer
         {
             case ENTITY:
             {
-                render(-0.5F, 0.0F, 0.5F, 0.5F);
+                render(0.0F, 0F, 0F, 0.25F);
                
                 return;
             }
             
             case EQUIPPED:
             {
-                render(0.0F, 0.0F, 1.0F, 1.0F);
+                render(0.0F, 0F, 0F, 0.15F);
                 
                 return;
             }
            
             case EQUIPPED_FIRST_PERSON:
             {
-                render(0.0F, 0.0F, 1.0F, 0.5F);
+                render(0.0F, 0.0F, 0F, 0.25F);
                
                 return;
             }
            
             case INVENTORY:
             {
-                render(1F, -0.25F, 1.0F, 0.5F);
+                render(0.0F, -4F, 0F, 0.15F);
                 
                 return;
             }

@@ -5,19 +5,26 @@ import net.minecraft.init.Blocks;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraftforge.common.util.ForgeDirection;
 
-public class TileEntityRiftMachineSupport extends TileEntity
+public class TileEntityRiftMachineSupport extends TileEntity 
 {
     protected ForgeDirection orientation;
     
     public TileEntityRiftMachineSupport()
     {
+        orientation = ForgeDirection.SOUTH;
     }
     
     public ForgeDirection getOrientation()
     {
         return orientation;
     }
-    
+
+    public void setOrientation(ForgeDirection orientation)
+    {
+
+        this.orientation = orientation;
+    }
+
     public void setOrientation(int orientation)
     {
 

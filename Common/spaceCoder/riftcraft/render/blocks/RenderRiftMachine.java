@@ -17,11 +17,13 @@ public class RenderRiftMachine extends TileEntitySpecialRenderer
 {
     private IModelCustom machine;
     private IModelCustom ring;
+    private IModelCustom rift;
     
     public  RenderRiftMachine()
     {
         machine = AdvancedModelLoader.loadModel(Models.RIFTMACHINE);
         ring = AdvancedModelLoader.loadModel(Models.RIFTMACHINERING);
+        rift = AdvancedModelLoader.loadModel(Models.RIFTMACHINERIFT);
     }
     @Override
     public void renderTileEntityAt(TileEntity tileEntity, double posX, double posY, double posZ, float par1)
@@ -42,7 +44,21 @@ public class RenderRiftMachine extends TileEntitySpecialRenderer
             FMLClientHandler.instance().getClient().getTextureManager().bindTexture(Textures.MODEL_RIFTMACHINE_RING);
             GL11.glRotated(tileEntityRiftMachine.rotation, 0, 0, 1);            
             ring.renderAll();
-        GL11.glPopMatrix();   
+        GL11.glPopMatrix(); 
+        GL11.glPushMatrix();
+            GL11.glAlphaFunc(GL11.GL_GREATER, 0.1F);
+            GL11.glDisable(GL11.GL_BLEND);
+            GL11.glDepthMask(true);
+            OpenGlHelper.glBlendFunc(770, 771, 1, 0);
+            GL11.glTranslated(posX + 0.5, posY + 3.5, posZ + 0.5); 
+            GL11.glScalef(scale, scale, scale);
+            FMLClientHandler.instance().getClient().getTextureManager().bindTexture(Textures.MODEL_RIFTMACHINE_RIFT);
+            GL11.glRotated(tileEntityRiftMachine.rotation * 2, 0, 0, 1);            
+            rift.renderAll();
+        GL11.glPopMatrix();
+        GL11.glEnable(GL11.GL_LIGHTING);
+        GL11.glEnable(GL11.GL_TEXTURE_2D);
+        GL11.glDepthMask(true);
     GL11.glPopMatrix();
     }
     
