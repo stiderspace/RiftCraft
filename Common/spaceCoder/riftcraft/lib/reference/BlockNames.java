@@ -24,4 +24,5 @@ public class BlockNames
 	public static final String BLOCKNAME_SUBZEROMATTER		= "SubzeroMatter";
 	public static final String BLOCKNAME_SUBZEROICE			= "SubzeroIce";
 	public static final String BLOCKNAME_SUBZEROCRYSTALORE	= "SubzeroCrystalOre";
+	public static final String BLOCKNAME_SUBZEROFIRE     	= "SubzeroFire";
 }

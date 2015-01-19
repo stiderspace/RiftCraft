@@ -12,6 +12,7 @@ import spaceCoder.riftcraft.block.BlockHellfireOre;
 import spaceCoder.riftcraft.block.BlockRift;
 import spaceCoder.riftcraft.block.BlockRiftMachine;
 import spaceCoder.riftcraft.block.BlockRiftMachineSupport;
+import spaceCoder.riftcraft.block.BlockSubzeroFire;
 import spaceCoder.riftcraft.block.BlockTemporalChest;
 import spaceCoder.riftcraft.block.BlockWarpedMatter;
 import spaceCoder.riftcraft.block.dimension.BlockSubzeroCrystalOre;
@@ -44,6 +45,7 @@ public class ModBlocks
     public static Block SubzeroMatter;
     public static Block SubzeroIce;
     public static Block SubzeroCrystalOre;
+    public static Block SubzeroFire;
     
     public static void init()
     {
@@ -64,6 +66,7 @@ public class ModBlocks
         SubzeroMatter			= new BlockSubzeroMatter();
         SubzeroIce				= new BlockSubzeroIce();
         SubzeroCrystalOre		= new BlockSubzeroCrystalOre();
+        SubzeroFire				= new BlockSubzeroFire();
         
         //Rift Machine
         RiftMachine             = new BlockRiftMachine();
@@ -89,6 +92,7 @@ public class ModBlocks
         RegisterHelper.registerBlock(SubzeroMatter);
         RegisterHelper.registerBlock(SubzeroIce);
         RegisterHelper.registerBlock(SubzeroCrystalOre);
+        RegisterHelper.registerBlock(SubzeroFire);
     }
 }
 

@@ -14,6 +14,7 @@ public class Textures
     public static final String LOCATION_SHEET_ARMOR = "textures/armor/";
     public static final String LOCATION_SHEET_GUI   = "textures/gui/";
     public static final String LOCATION_EFFECTS     = "textures/effects/";
+    public static final String LOCATION_ENTITY	    = "textures/entity/";
 
     // Item/Block sprite sheets
     public static final ResourceLocation VANILLA_BLOCK_TEXTURE_SHEET = TextureMap.locationBlocksTexture;
@@ -37,6 +38,7 @@ public class Textures
     public static final String TEXTURE_SUBZEROMATTER	  = RESOURCE_PREFIX + BlockNames.BLOCKNAME_SUBZEROMATTER;
     public static final String TEXTURE_SUBZEROICE		  = RESOURCE_PREFIX + BlockNames.BLOCKNAME_SUBZEROICE;
     public static final String TEXTURE_SUBZEROCRYSTALORE  = RESOURCE_PREFIX + BlockNames.BLOCKNAME_SUBZEROCRYSTALORE;
+    public static final String TEXTURE_SUBZEROFIRE		  = RESOURCE_PREFIX + BlockNames.BLOCKNAME_SUBZEROFIRE;
     
     // Texture Models
     public static final ResourceLocation MODEL_CONTAINEDBLACKHOLE       = ResourceLocationHelper.getResourceLocation(LOCATION_SHEET_MODEL + "contained_black_hole.png");
@@ -58,7 +60,8 @@ public class Textures
     public static final String TEXTURE_HELLFIREBOOTS	  = RESOURCE_PREFIX + ItemNames.ITEMNAME_HELLFIREBOOTS;
     
     // Other Textures
-    public static final String ENTITY_HELLFIRE_LAYER1	  = RESOURCE_PREFIX + LOCATION_SHEET_ARMOR + "hellfire_layer_1" + ".png";
-    public static final String ENTITY_HELLFIRE_LAYER2	  = RESOURCE_PREFIX + LOCATION_SHEET_ARMOR + "hellfire_layer_2" + ".png";
+    public static final String ENTITY_HELLFIRE_LAYER1	  = RESOURCE_PREFIX + LOCATION_SHEET_ARMOR + "hellfire_layer_1"			+ ".png";
+    public static final String ENTITY_HELLFIRE_LAYER2	  = RESOURCE_PREFIX + LOCATION_SHEET_ARMOR + "hellfire_layer_2" 		+ ".png";
+
     
 }
