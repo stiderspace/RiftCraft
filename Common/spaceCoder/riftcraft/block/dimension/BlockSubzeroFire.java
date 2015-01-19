@@ -1,7 +1,8 @@
-package spaceCoder.riftcraft.block;
+package spaceCoder.riftcraft.block.dimension;
 
 import net.minecraft.block.material.Material;
 import net.minecraft.util.IIcon;
+import spaceCoder.riftcraft.block.BlockRC;
 import spaceCoder.riftcraft.creativeTabs.CreativeTabRFC;
 import spaceCoder.riftcraft.lib.reference.BlockNames;
 
