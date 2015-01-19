@@ -58,5 +58,7 @@ public class Textures
     public static final String TEXTURE_HELLFIREBOOTS	  = RESOURCE_PREFIX + ItemNames.ITEMNAME_HELLFIREBOOTS;
     
     // Other Textures
+    public static final String ENTITY_HELLFIRE_LAYER1	  = RESOURCE_PREFIX + LOCATION_SHEET_ARMOR + "hellfire_layer_1" + ".png";
+    public static final String ENTITY_HELLFIRE_LAYER2	  = RESOURCE_PREFIX + LOCATION_SHEET_ARMOR + "hellfire_layer_2" + ".png";
     
 }

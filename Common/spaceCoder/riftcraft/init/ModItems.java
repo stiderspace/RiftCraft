@@ -8,7 +8,10 @@ import spaceCoder.riftcraft.item.ItemHellfireHelmet;
 import spaceCoder.riftcraft.item.ItemHellfireIngot;
 import spaceCoder.riftcraft.item.ItemHellfireLeggings;
 import spaceCoder.riftcraft.item.ItemWarpedMatterIngot;
+import spaceCoder.riftcraft.item.Material;
+import spaceCoder.riftcraft.lib.reference.ItemNames;
 import spaceCoder.riftcraft.lib.reference.Reference;
+import spaceCoder.riftcraft.lib.reference.Textures;
 import spaceCoder.riftcraft.lib.utility.RegisterHelper;
 import cpw.mods.fml.common.registry.GameRegistry;
 
@@ -32,7 +35,7 @@ public class ModItems
         
         HellfireDust				  = new ItemHellfireDust();
         HellfireIngot                 = new ItemHellfireIngot();
-        HellfireHelmet                = new ItemHellfireHelmet();
+        HellfireHelmet                = new ItemHellfireHelmet(ItemNames.ITEMNAME_HELLFIREHELMET, Material.HellfireArmor, Textures.ENTITY_HELLFIRE_LAYER1, 0);
         HellfireChestplate            = new ItemHellfireChestplate();
         HellfireLeggings              = new ItemHellfireLeggings();
         HellfireBoots                 = new ItemHellfireBoots();
