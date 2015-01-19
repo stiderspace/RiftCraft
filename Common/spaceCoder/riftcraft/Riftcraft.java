@@ -4,6 +4,7 @@ import spaceCoder.riftcraft.handler.ConfigurationHandler;
 import spaceCoder.riftcraft.init.ModBlocks;
 import spaceCoder.riftcraft.init.ModItems;
 import spaceCoder.riftcraft.init.ModTile;
+import spaceCoder.riftcraft.init.ModWorldGeneration;
 import spaceCoder.riftcraft.lib.reference.Reference;
 import spaceCoder.riftcraft.lib.utility.LogHelper;
 import spaceCoder.riftcraft.proxy.CommonProxy;
@@ -35,6 +36,7 @@ public class Riftcraft {
 		    ModBlocks.init();
             ModItems.init();
             ModTile.init();
+            ModWorldGeneration.init();
             LogHelper.info("Pre Initialization Finished");
 		    		
 		}

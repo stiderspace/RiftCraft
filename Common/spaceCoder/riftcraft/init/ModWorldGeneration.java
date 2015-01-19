@@ -9,7 +9,7 @@ public class ModWorldGeneration
 	//Declare the generator
 	public static IWorldGenerator Hellfire;
 	
-	public void init()
+	public static void init()
 	{
 		//Add the generator
 		Hellfire = new WorldGeneratorHellfire();
