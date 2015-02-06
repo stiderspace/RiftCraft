@@ -13,11 +13,12 @@ import spaceCoder.riftcraft.tile.TileEntityContainedBlackHole;
 import spaceCoder.riftcraft.tile.TileEntityRiftMachine;
 import spaceCoder.riftcraft.tile.TileEntityRiftMachineSupport;
 import cpw.mods.fml.client.registry.ClientRegistry;
+import cpw.mods.fml.client.registry.RenderingRegistry;
 
 
 public class ClientProxy extends CommonProxy
 {
-
+    public static int renderPass;
     @Override
     public void loadRenderers()
     {

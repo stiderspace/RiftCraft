@@ -30,10 +30,10 @@ public class BlockRift extends BlockRC
         //EntityPlayerMP player = (EntityPlayerMP) entity;
         if (entity.ridingEntity == null && entity.riddenByEntity == null && !world.isRemote) {
             
-            entity.travelToDimension(1);
+            entity.travelToDimension(0);
             //player.mcServer.getConfigurationManager().transferPlayerToDimension(player, DimensionIds.SUBZERO, new TeleporterRift(Server.worldServerForDimension(DimensionIds.SUBZERO)));
             
-        }else if(entity.dimension == 1){
+        }else if(entity.dimension != 0){
             entity.travelToDimension(0);
             //player.mcServer.getConfigurationManager().transferPlayerToDimension(player, DimensionIds.SUBZERO, new TeleporterRift(Server.worldServerForDimension(DimensionIds.SUBZERO)));
         }

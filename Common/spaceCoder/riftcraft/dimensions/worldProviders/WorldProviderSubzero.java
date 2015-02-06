@@ -4,6 +4,7 @@ import net.minecraft.world.WorldProvider;
 import net.minecraft.world.biome.BiomeGenBase;
 import net.minecraft.world.biome.WorldChunkManagerHell;
 import net.minecraft.world.chunk.IChunkProvider;
+import spaceCoder.riftcraft.dimensions.chunkProviders.ChunkProviderNormal;
 import spaceCoder.riftcraft.dimensions.chunkProviders.ChunkProviderSubzero;
 import spaceCoder.riftcraft.lib.reference.DimensionIds;
 
@@ -18,7 +19,7 @@ public class WorldProviderSubzero extends WorldProvider
    
     public IChunkProvider createChunkGenerator()
     {
-           return new ChunkProviderSubzero(worldObj, worldObj.getSeed(), true);
+           return new ChunkProviderNormal(worldObj, worldObj.getSeed(), true);
     }
     @Override
     public String getDimensionName()
