@@ -4,7 +4,10 @@ import java.util.Random;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.init.Blocks;
+import net.minecraft.util.Facing;
 import net.minecraft.world.IBlockAccess;
 import spaceCoder.riftcraft.block.BlockRC;
 import spaceCoder.riftcraft.lib.reference.BlockNames;
@@ -38,9 +41,9 @@ public class BlockSubzeroIce extends BlockRC
     {
         return false;
     }
-    
+
     @SideOnly(Side.CLIENT)
-    public boolean shouldSideBeRendered(IBlockAccess var1, int var2, int var3, int var4, int var5)
+    public boolean shouldSideBeRendered(IBlockAccess var1, int var2, int var3, int var4, int var5, boolean render)
     {
         return super.shouldSideBeRendered(var1, var2, var3, var4, 1 - var5);
     }

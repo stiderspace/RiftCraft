@@ -1,11 +1,16 @@
 package spaceCoder.riftcraft.block;
 
+import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.init.Blocks;
 import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.Facing;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import spaceCoder.riftcraft.creativeTabs.CreativeTabRFC;
+import spaceCoder.riftcraft.init.ModBlocks;
 import spaceCoder.riftcraft.lib.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,6 +18,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 public class BlockRC extends BlockContainer
 
 {
+    private boolean RenderSides;
     public BlockRC(Material material)
     {
         super(material);
@@ -24,7 +30,6 @@ public class BlockRC extends BlockContainer
         this(Material.iron);
         
     }
-    
     public String getUnlocalizedName()
     {
         return String.format("tile.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
@@ -48,5 +53,26 @@ public class BlockRC extends BlockContainer
         return null;
     }
     
+    @SideOnly(Side.CLIENT)
+    public boolean shouldSideBeRendered(IBlockAccess iblock, int PosX, int PosY, int PosZ, int Side, boolean render)
+    {
+        Block block = iblock.getBlock(PosX, PosY, PosZ);
+
+        if (this == ModBlocks.SubzeroIce)
+        {
+            if (iblock.getBlockMetadata(PosX, PosZ, PosY) != iblock.getBlockMetadata(PosX - Facing.offsetsXForSide[Side], PosZ - Facing.offsetsYForSide[Side], PosY - Facing.offsetsZForSide[Side]))
+            {
+                return true;
+            }
+
+            if (block == this)
+            {
+                return false;
+            }
+        }
+
+        return !render && block == this ? false : super.shouldSideBeRendered(iblock, PosX, PosZ, PosY, Side);
+    }
+
 
 }
