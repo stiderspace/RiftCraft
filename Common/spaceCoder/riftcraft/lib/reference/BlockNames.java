@@ -15,6 +15,8 @@ public class BlockNames
 	public static final String BLOCKNAME_CONTAINEDBLACKHOLE = "ContainedBlackHole";
 	public static final String BLOCKNAME_TEMPORALCHEST      = "TemporalChest";
 	public static final String BLOCKNAME_DWARFSTARALLOY     = "DwarfStarAlloy";
+	public static final String BLOCKNAME_DARKMATTER			= "DarkMatter";
+	public static final String BLOCKNAME_UNSTABLEMATTER		= "UnstableMatter";
 	
 	public static final String BLOCKNAME_CRYSTALORE			= "CrystalOreBlue";
 	

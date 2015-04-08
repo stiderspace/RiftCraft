@@ -7,19 +7,19 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class ItemHellfireDust extends ItemRC 
+public class ItemCircuitBoard extends ItemRC 
 {
-    public ItemHellfireDust() 
+    public ItemCircuitBoard() 
     {
         super();
-        this.setUnlocalizedName(ItemNames.ITEMNAME_HELLFIREDUST);
+        this.setUnlocalizedName(ItemNames.ITEMNAME_CIRCUITBOARD);
     }
     
     public ItemStack onItemRightClick(ItemStack ItemStack, World World, EntityPlayer entityPlayer)
     {
         if (World.isRemote)
         {
-            ChatMessageHelper.sendMessage("This dust feels like it's never going to cool down.", entityPlayer);
+            ChatMessageHelper.sendMessage("An empty circuitboard to build electronic circuits for machines.", entityPlayer);
         }
         return ItemStack;
 

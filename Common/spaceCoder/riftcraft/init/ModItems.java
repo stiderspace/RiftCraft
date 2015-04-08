@@ -1,6 +1,9 @@
 package spaceCoder.riftcraft.init;
 
 import net.minecraft.item.Item;
+import spaceCoder.riftcraft.item.ItemBasicCircuit;
+import spaceCoder.riftcraft.item.ItemBlueCrystal;
+import spaceCoder.riftcraft.item.ItemCircuitBoard;
 import spaceCoder.riftcraft.item.ItemHellfireBoots;
 import spaceCoder.riftcraft.item.ItemHellfireChestplate;
 import spaceCoder.riftcraft.item.ItemHellfireDust;
@@ -20,6 +23,9 @@ public class ModItems
 {
     //Declare the items
     public static Item WarpedMatterIngot;
+    public static Item BlueCrystal;
+    public static Item CircuitBoard;
+    public static Item BasicCircuit;
     
     public static Item HellfireDust;
     public static Item HellfireIngot;
@@ -32,6 +38,9 @@ public class ModItems
     {
         //Add the items
         WarpedMatterIngot             = new ItemWarpedMatterIngot();
+        BlueCrystal            		  = new ItemBlueCrystal();
+        CircuitBoard             	  = new ItemCircuitBoard();
+        BasicCircuit				  = new ItemBasicCircuit();
         
         HellfireDust				  = new ItemHellfireDust();
         HellfireIngot                 = new ItemHellfireIngot();
@@ -42,6 +51,9 @@ public class ModItems
         
         //Register the items
         RegisterHelper.registerItem(WarpedMatterIngot);
+        RegisterHelper.registerItem(BlueCrystal);
+        RegisterHelper.registerItem(CircuitBoard);
+        RegisterHelper.registerItem(BasicCircuit);
         
         RegisterHelper.registerItem(HellfireDust);
         RegisterHelper.registerItem(HellfireIngot);

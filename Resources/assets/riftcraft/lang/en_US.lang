@@ -4,7 +4,10 @@
 itemGroup.riftcraft=RiftCraft
 
 # Items
-tile.riftcraft:ItemWarpedMatterIngot.name=Warped Matter Ingot
+tile.riftcraft:WarpedMatterIngot.name=Warped Matter Ingot
+tile.riftcraft:BasicCircuit.name=Basic Circuit
+tile.riftcraft:CircuitBoard.name=Empty Circuit Board
+tile.riftcraft:BlueCrystal.name=Blue Crystal
 
 # Blocks
 tile.riftcraft:Rift.name=Rift
@@ -16,8 +19,12 @@ tile.riftcraft:ContainedBlackHole.name=Contained Black Hole
 tile.riftcraft:TemporalChest.name=Temporal Chest
 tile.riftcraft:BlackHoleExtractor.name=Black Hole Extractor
 tile.riftcraft:DwarfStarAlloy.name=Hello Sweetie
+tile.riftcraft:RiftMachineSupport.name=Rift Machine Support
+tile.riftcraft:Energyhub.name=Energy Hub
 
 tile.riftcraft:CrystalOreBlue.name=Blue Crystal Ore
+
+tile.riftcraft:HellfireOre.name=Hellfire Ore
 
 # Blocks - Subzero Dimension
 tile.riftcraft:SubzeroMatter.name=Subzero Matter

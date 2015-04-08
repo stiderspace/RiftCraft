@@ -5,6 +5,7 @@ import spaceCoder.riftcraft.block.BlockBlackHoleExtractor;
 import spaceCoder.riftcraft.block.BlockContainedBlackHole;
 import spaceCoder.riftcraft.block.BlockContainedRift;
 import spaceCoder.riftcraft.block.BlockCrystalOre;
+import spaceCoder.riftcraft.block.BlockDarkMatter;
 import spaceCoder.riftcraft.block.BlockDwarfStarAlloy;
 import spaceCoder.riftcraft.block.BlockEnergyConverter;
 import spaceCoder.riftcraft.block.BlockEnergyHub;
@@ -13,6 +14,7 @@ import spaceCoder.riftcraft.block.BlockRift;
 import spaceCoder.riftcraft.block.BlockRiftMachine;
 import spaceCoder.riftcraft.block.BlockRiftMachineSupport;
 import spaceCoder.riftcraft.block.BlockTemporalChest;
+import spaceCoder.riftcraft.block.BlockUnstableMatter;
 import spaceCoder.riftcraft.block.BlockWarpedMatter;
 import spaceCoder.riftcraft.block.dimension.BlockSubzeroCrystalOre;
 import spaceCoder.riftcraft.block.dimension.BlockSubzeroFire;
@@ -37,6 +39,8 @@ public class ModBlocks
     public static Block BlackHoleExtractor;
     public static Block RiftMachineSupport;
     public static Block DwarfStarAlloy;
+    public static Block DarkMatter;
+    public static Block UnstableMatter;
     
     public static Block CrystalOre;
     
@@ -59,6 +63,8 @@ public class ModBlocks
         TemperalChest           = new BlockTemporalChest();
         BlackHoleExtractor      = new BlockBlackHoleExtractor();
         DwarfStarAlloy          = new BlockDwarfStarAlloy();
+        DarkMatter				= new BlockDarkMatter();
+        UnstableMatter			= new BlockUnstableMatter();
         
         CrystalOre				= new BlockCrystalOre();
         HellfireOre				= new BlockHellfireOre();
@@ -85,6 +91,8 @@ public class ModBlocks
         RegisterHelper.registerBlock(TemperalChest);
         RegisterHelper.registerBlock(BlackHoleExtractor);
         RegisterHelper.registerBlock(DwarfStarAlloy);
+        RegisterHelper.registerBlock(DarkMatter);
+        RegisterHelper.registerBlock(UnstableMatter);
         
         RegisterHelper.registerBlock(CrystalOre);
         RegisterHelper.registerBlock(HellfireOre);

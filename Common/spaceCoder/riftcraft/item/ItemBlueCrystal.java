@@ -7,19 +7,19 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class ItemHellfireDust extends ItemRC 
+public class ItemBlueCrystal extends ItemRC 
 {
-    public ItemHellfireDust() 
+    public ItemBlueCrystal() 
     {
         super();
-        this.setUnlocalizedName(ItemNames.ITEMNAME_HELLFIREDUST);
+        this.setUnlocalizedName(ItemNames.ITEMNAME_BLUECRYSTAL);
     }
     
     public ItemStack onItemRightClick(ItemStack ItemStack, World World, EntityPlayer entityPlayer)
     {
         if (World.isRemote)
         {
-            ChatMessageHelper.sendMessage("This dust feels like it's never going to cool down.", entityPlayer);
+            ChatMessageHelper.sendMessage("A pretty and rare crystal. I wonder where this is for?", entityPlayer);
         }
         return ItemStack;
 
