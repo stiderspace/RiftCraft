@@ -17,8 +17,10 @@ public class BlockHellfireOre extends BlockRC
 	{
 		super(Material.rock);
 		this.setBlockName(BlockNames.BLOCKNAME_HELLFIREORE);
-		this.setHardness(3.0F);
+		this.setHardness(4.0F);
+		this.setResistance(2.0F);
 		this.setStepSound(soundTypeStone);
+		this.setHarvestLevel("pickaxe", 2);
 	}
 	
     public Item getItemDropped(int var1, Random var2, int var3)
@@ -34,3 +36,4 @@ public class BlockHellfireOre extends BlockRC
     //Smoke Generation 
 }
 
+// The numbers of the harvest levels are... Wood:0 Stone:1 Iron:2 Diamond: 3 Gold:0

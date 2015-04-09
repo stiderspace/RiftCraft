@@ -4,15 +4,22 @@
 itemGroup.riftcraft=RiftCraft
 
 # Items
-tile.riftcraft:WarpedMatterIngot.name=Warped Matter Ingot
-tile.riftcraft:BasicCircuit.name=Basic Circuit
-tile.riftcraft:CircuitBoard.name=Empty Circuit Board
-tile.riftcraft:BlueCrystal.name=Blue Crystal
+item.riftcraft:WarpedMatterIngot.name=Warped Matter Ingot
+item.riftcraft:BasicCircuit.name=Basic Circuit
+item.riftcraft:CircuitBoard.name=Empty Circuit Board
+item.riftcraft:BlueCrystal.name=Blue Crystal
+
+item.riftcraft:HellfireIngot.name=Hellfire Ingot
+item.riftcraft:HellfireDust.name=Hellfire Dust
+item.riftcraft:HellfireHelmet.name=Hellfire Helmet
+item.riftcraft:HellfireChestplate.name=Hellfire Chestplate
+item.riftcraft:HellfireLeggings.name=Hellfire Leggings
+item.riftcraft:HellfireBoots.name=Hellfire Boots
 
 # Blocks
 tile.riftcraft:Rift.name=Rift
 tile.riftcraft:WarpedMatter.name=Warped Matter
-tile.riftcraft:Energyhub.name=Energy Hub
+tile.riftcraft:EnergyHub.name=Energy Hub
 tile.riftcraft:EnergyConverter.name=Energy Converter
 tile.riftcraft:ContainedRift.name=Contained Rift
 tile.riftcraft:ContainedBlackHole.name=Contained Black Hole
@@ -21,6 +28,9 @@ tile.riftcraft:BlackHoleExtractor.name=Black Hole Extractor
 tile.riftcraft:DwarfStarAlloy.name=Hello Sweetie
 tile.riftcraft:RiftMachineSupport.name=Rift Machine Support
 tile.riftcraft:Energyhub.name=Energy Hub
+tile.riftcraft:DarkMatter.name=Dark Matter
+tile.riftcraft:UnstableMatter.name=Unstable Matter
+tile.riftcraft:RiftMachine.name=Rift Machine
 
 tile.riftcraft:CrystalOreBlue.name=Blue Crystal Ore
 
@@ -30,3 +40,4 @@ tile.riftcraft:HellfireOre.name=Hellfire Ore
 tile.riftcraft:SubzeroMatter.name=Subzero Matter
 tile.riftcraft:SubzeroCrystalOre.name=Subzero Crystal Ore
 tile.riftcraft:SubzeroIce.name=Subzero Ice
+tile.riftcraft:SubzeroFire.name=Subzero Fire
