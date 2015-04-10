@@ -35,6 +35,7 @@ tile.riftcraft:RiftMachine.name=Rift Machine
 tile.riftcraft:CrystalOreBlue.name=Blue Crystal Ore
 
 tile.riftcraft:HellfireOre.name=Hellfire Ore
+tile.riftcraft:HellfireBlock.name=Hellfire Block
 
 # Blocks - Subzero Dimension
 tile.riftcraft:SubzeroMatter.name=Subzero Matter

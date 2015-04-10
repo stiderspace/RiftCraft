@@ -9,6 +9,7 @@ import spaceCoder.riftcraft.block.BlockDarkMatter;
 import spaceCoder.riftcraft.block.BlockDwarfStarAlloy;
 import spaceCoder.riftcraft.block.BlockEnergyConverter;
 import spaceCoder.riftcraft.block.BlockEnergyHub;
+import spaceCoder.riftcraft.block.BlockHellfire;
 import spaceCoder.riftcraft.block.BlockHellfireOre;
 import spaceCoder.riftcraft.block.BlockRift;
 import spaceCoder.riftcraft.block.BlockRiftMachine;
@@ -45,6 +46,7 @@ public class ModBlocks
     public static Block CrystalOre;
     
     public static Block HellfireOre;
+    public static Block HellfireBlock;
     
     public static Block SubzeroMatter;
     public static Block SubzeroIce;
@@ -68,6 +70,7 @@ public class ModBlocks
         
         CrystalOre				= new BlockCrystalOre();
         HellfireOre				= new BlockHellfireOre();
+        HellfireBlock			= new BlockHellfire();
         
         SubzeroMatter			= new BlockSubzeroMatter();
         SubzeroIce				= new BlockSubzeroIce();
@@ -96,6 +99,7 @@ public class ModBlocks
         
         RegisterHelper.registerBlock(CrystalOre);
         RegisterHelper.registerBlock(HellfireOre);
+        RegisterHelper.registerBlock(HellfireBlock);
         
         RegisterHelper.registerBlock(SubzeroMatter);
         RegisterHelper.registerBlock(SubzeroIce);
