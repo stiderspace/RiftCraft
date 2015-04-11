@@ -34,6 +34,7 @@ public class Textures
     public static final String TEXTURE_DWARFSTARALOY      = RESOURCE_PREFIX + BlockNames.BLOCKNAME_DWARFSTARALLOY;
     
     public static final String TEXTURE_CRYSTALOREBLUE	  = RESOURCE_PREFIX + BlockNames.BLOCKNAME_CRYSTALORE;
+    public static final String TEXTURE_CRYSTALBLOCK		  = RESOURCE_PREFIX + BlockNames.BLOCKNAME_CRYSTALBLOCK;
     
     public static final String TEXTURE_SUBZEROMATTER	  = RESOURCE_PREFIX + BlockNames.BLOCKNAME_SUBZEROMATTER;
     public static final String TEXTURE_SUBZEROICE		  = RESOURCE_PREFIX + BlockNames.BLOCKNAME_SUBZEROICE;

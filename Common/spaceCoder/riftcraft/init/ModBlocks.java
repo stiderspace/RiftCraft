@@ -4,6 +4,7 @@ import net.minecraft.block.Block;
 import spaceCoder.riftcraft.block.BlockBlackHoleExtractor;
 import spaceCoder.riftcraft.block.BlockContainedBlackHole;
 import spaceCoder.riftcraft.block.BlockContainedRift;
+import spaceCoder.riftcraft.block.BlockCrystal;
 import spaceCoder.riftcraft.block.BlockCrystalOre;
 import spaceCoder.riftcraft.block.BlockDarkMatter;
 import spaceCoder.riftcraft.block.BlockDwarfStarAlloy;
@@ -44,6 +45,7 @@ public class ModBlocks
     public static Block UnstableMatter;
     
     public static Block CrystalOre;
+    public static Block CrystalBlock;
     
     public static Block HellfireOre;
     public static Block HellfireBlock;
@@ -69,6 +71,7 @@ public class ModBlocks
         UnstableMatter			= new BlockUnstableMatter();
         
         CrystalOre				= new BlockCrystalOre();
+        CrystalBlock			= new BlockCrystal();
         HellfireOre				= new BlockHellfireOre();
         HellfireBlock			= new BlockHellfire();
         
@@ -98,6 +101,7 @@ public class ModBlocks
         RegisterHelper.registerBlock(UnstableMatter);
         
         RegisterHelper.registerBlock(CrystalOre);
+        RegisterHelper.registerBlock(CrystalBlock);
         RegisterHelper.registerBlock(HellfireOre);
         RegisterHelper.registerBlock(HellfireBlock);
         

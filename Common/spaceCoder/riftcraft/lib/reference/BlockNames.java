@@ -19,6 +19,7 @@ public class BlockNames
 	public static final String BLOCKNAME_UNSTABLEMATTER		= "UnstableMatter";
 	
 	public static final String BLOCKNAME_CRYSTALORE			= "CrystalOreBlue";
+	public static final String BLOCKNAME_CRYSTALBLOCK		= "CrystalBlock";
 	
 	public static final String BLOCKNAME_HELLFIREORE		= "HellfireOre";
 	public static final String BLOCKNAME_HELLFIREBLOCK		= "HellfireBlock";
