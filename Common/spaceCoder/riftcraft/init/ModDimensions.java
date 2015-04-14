@@ -8,6 +8,7 @@ public class ModDimensions
 {
     public static void init(){
     
-    DimensionManager.registerProviderType(5, WorldProviderSubzero.class, false);
+    DimensionManager.registerProviderType(DimensionIds.SUBZERO, WorldProviderSubzero.class, false);
+    DimensionManager.registerDimension(DimensionIds.SUBZERO, DimensionIds.SUBZERO);
     }
 }
