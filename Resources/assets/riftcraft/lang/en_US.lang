@@ -28,6 +28,7 @@ item.riftcraft:Resistor1.name=1kΩ Resistor
 item.riftcraft:Resistor2.name=2.2kΩ Resistor
 item.riftcraft:SpaceTimeFluxSensor.name=Space/Time Flux Sensor
 item.riftcraft:Transistor.name=Transistor
+item.riftcraft:CopperCoil.name=Copper Coil
 
 # Blocks
 tile.riftcraft:Rift.name=Rift

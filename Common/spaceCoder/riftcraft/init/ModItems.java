@@ -6,6 +6,7 @@ import spaceCoder.riftcraft.item.ItemBlueCrystal;
 import spaceCoder.riftcraft.item.ItemCapacitor1;
 import spaceCoder.riftcraft.item.ItemCapacitor2;
 import spaceCoder.riftcraft.item.ItemCircuitBoard;
+import spaceCoder.riftcraft.item.ItemCopperCoil;
 import spaceCoder.riftcraft.item.ItemHellfireBoots;
 import spaceCoder.riftcraft.item.ItemHellfireChestplate;
 import spaceCoder.riftcraft.item.ItemHellfireDust;
@@ -58,6 +59,7 @@ public class ModItems
     public static Item Resistor2;
     public static Item SpaceTimeFluxSensor;
     public static Item Transistor;
+    public static Item CopperCoil;
     
     public static void init()
     {
@@ -86,6 +88,7 @@ public class ModItems
         Resistor2                	  = new ItemResistor2();
         SpaceTimeFluxSensor           = new ItemSpaceTimeFluxSensor();
         Transistor             	      = new ItemTransistor();
+        CopperCoil					  = new ItemCopperCoil();
         
         //Register the items
         RegisterHelper.registerItem(WarpedMatterIngot);
@@ -112,5 +115,6 @@ public class ModItems
         RegisterHelper.registerItem(Resistor2);
         RegisterHelper.registerItem(SpaceTimeFluxSensor);
         RegisterHelper.registerItem(Transistor);
+        RegisterHelper.registerItem(CopperCoil);
     }
 }

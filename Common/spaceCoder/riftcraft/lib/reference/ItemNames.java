@@ -28,4 +28,5 @@ public class ItemNames
     public static final String ITEMNAME_RESISTOR2		            = "Resistor2";
     public static final String ITEMNAME_SPACETIMEFLUXSENSOR         = "SpaceTimeFluxSensor";
     public static final String ITEMNAME_TRANSISTOR		            = "Transistor";
+    public static final String ITEMNAME_COPPERCOIL		            = "CopperCoil";
 }
