@@ -16,6 +16,19 @@ item.riftcraft:HellfireChestplate.name=Hellfire Chestplate
 item.riftcraft:HellfireLeggings.name=Hellfire Leggings
 item.riftcraft:HellfireBoots.name=Hellfire Boots
 
+item.riftcraft:Capacitor1.name=10 μF Capacitor
+item.riftcraft:Capacitor2.name=50 μF Capacitor
+item.riftcraft:LEDBlue.name=Blue LED
+item.riftcraft:LEDGreen.name=Green LED
+item.riftcraft:LEDRed.name=Red LED
+item.riftcraft:LEDYellow.name=Yellow LED
+item.riftcraft:Microcontroller.name=Microcontroller
+item.riftcraft:Processor.name=Processor
+item.riftcraft:Resistor1.name=1kΩ Resistor
+item.riftcraft:Resistor2.name=2.2kΩ Resistor
+item.riftcraft:SpaceTimeFluxSensor.name=Space/Time Flux Sensor
+item.riftcraft:Transistor.name=Transistor
+
 # Blocks
 tile.riftcraft:Rift.name=Rift
 tile.riftcraft:WarpedMatter.name=Warped Matter
@@ -33,6 +46,7 @@ tile.riftcraft:UnstableMatter.name=Unstable Matter
 tile.riftcraft:RiftMachine.name=Rift Machine
 
 tile.riftcraft:CrystalOreBlue.name=Blue Crystal Ore
+tile.riftcraft:CrystalBlock.name=Blue Crystal Block
 
 tile.riftcraft:HellfireOre.name=Hellfire Ore
 tile.riftcraft:HellfireBlock.name=Hellfire Block
@@ -41,4 +55,4 @@ tile.riftcraft:HellfireBlock.name=Hellfire Block
 tile.riftcraft:SubzeroMatter.name=Subzero Matter
 tile.riftcraft:SubzeroCrystalOre.name=Subzero Crystal Ore
 tile.riftcraft:SubzeroIce.name=Subzero Ice
-tile.riftcraft:SubzeroFire.name=Subzero Fire
+tile.SubzeroFire.name=Subzero Fire
