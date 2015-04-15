@@ -32,9 +32,14 @@ public class Textures
     public static final String TEXTURE_CONTAINEDBLACKHOLE = RESOURCE_PREFIX + BlockNames.BLOCKNAME_CONTAINEDBLACKHOLE;
     public static final String TEXTURE_TEMPORALCHEST      = RESOURCE_PREFIX + BlockNames.BLOCKNAME_TEMPORALCHEST;
     public static final String TEXTURE_DWARFSTARALOY      = RESOURCE_PREFIX + BlockNames.BLOCKNAME_DWARFSTARALLOY;
+    public static final String TEXTURE_DARKMATTER	      = RESOURCE_PREFIX + BlockNames.BLOCKNAME_DARKMATTER;
+    public static final String TEXTURE_UNSTABLEMATTER     = RESOURCE_PREFIX + BlockNames.BLOCKNAME_UNSTABLEMATTER;
     
     public static final String TEXTURE_CRYSTALOREBLUE	  = RESOURCE_PREFIX + BlockNames.BLOCKNAME_CRYSTALORE;
     public static final String TEXTURE_CRYSTALBLOCK		  = RESOURCE_PREFIX + BlockNames.BLOCKNAME_CRYSTALBLOCK;
+    
+    public static final String TEXTURE_HELLFIREORE        = RESOURCE_PREFIX + BlockNames.BLOCKNAME_HELLFIREORE;
+    public static final String TEXTURE_HELLFIREBLOCK      = RESOURCE_PREFIX + BlockNames.BLOCKNAME_HELLFIREBLOCK;
     
     public static final String TEXTURE_SUBZEROMATTER	  = RESOURCE_PREFIX + BlockNames.BLOCKNAME_SUBZEROMATTER;
     public static final String TEXTURE_SUBZEROICE		  = RESOURCE_PREFIX + BlockNames.BLOCKNAME_SUBZEROICE;
@@ -52,6 +57,9 @@ public class Textures
     
     // Texture Items
     public static final String TEXTURE_WARPEDMATTERINGOT  = RESOURCE_PREFIX + ItemNames.ITEMNAME_WARPEDMATTERINGOT;
+    public static final String TEXTURE_BLUECRYSTAL		  = RESOURCE_PREFIX + ItemNames.ITEMNAME_BLUECRYSTAL;
+    public static final String TEXTURE_CIRCUITBOARD       = RESOURCE_PREFIX + ItemNames.ITEMNAME_CIRCUITBOARD;
+    public static final String TEXTURE_BASICCIRCUIT		  = RESOURCE_PREFIX + ItemNames.ITEMNAME_BASICCIRCUIT;
     
     public static final String TEXTURE_HELLFIREDUST	  	  = RESOURCE_PREFIX + ItemNames.ITEMNAME_HELLFIREDUST;
     public static final String TEXTURE_HELLFIREINGOT	  = RESOURCE_PREFIX + ItemNames.ITEMNAME_HELLFIREINGOT;
@@ -59,6 +67,20 @@ public class Textures
     public static final String TEXTURE_HELLFIRECHESTPLATE = RESOURCE_PREFIX + ItemNames.ITEMNAME_HELLFIRECHESTPLATE;
     public static final String TEXTURE_HELLFIRELEGGINGS	  = RESOURCE_PREFIX + ItemNames.ITEMNAME_HELLFIRELEGGINGS;
     public static final String TEXTURE_HELLFIREBOOTS	  = RESOURCE_PREFIX + ItemNames.ITEMNAME_HELLFIREBOOTS;
+    
+    public static final String TEXTURE_CAPACITOR1		  = RESOURCE_PREFIX + ItemNames.ITEMNAME_CAPACITOR1;
+    public static final String TEXTURE_CAPACITOR2		  = RESOURCE_PREFIX + ItemNames.ITEMNAME_CAPACITOR2;
+    public static final String TEXTURE_LEDBLUE			  = RESOURCE_PREFIX + ItemNames.ITEMNAME_LEDBLUE;
+    public static final String TEXTURE_LEDGREEN			  = RESOURCE_PREFIX + ItemNames.ITEMNAME_LEDGREEN;
+    public static final String TEXTURE_LEDRED			  = RESOURCE_PREFIX + ItemNames.ITEMNAME_LEDRED;
+    public static final String TEXTURE_LEDYELLOW		  = RESOURCE_PREFIX + ItemNames.ITEMNAME_LEDYELLOW;
+    public static final String TEXTURE_MICROCONTROLLER	  = RESOURCE_PREFIX + ItemNames.ITEMNAME_MICROCONTROLLER;
+    public static final String TEXTURE_PROCESSOR		  = RESOURCE_PREFIX + ItemNames.ITEMNAME_PROCESSOR;
+    public static final String TEXTURE_RESISTOR1		  = RESOURCE_PREFIX + ItemNames.ITEMNAME_RESISTOR1;
+    public static final String TEXTURE_RESISTOR2		  = RESOURCE_PREFIX + ItemNames.ITEMNAME_RESISTOR2;
+    public static final String TEXTURE_SPACETIMEFLUXSENSOR= RESOURCE_PREFIX + ItemNames.ITEMNAME_SPACETIMEFLUXSENSOR;
+    public static final String TEXTURE_TRANSISTOR		  = RESOURCE_PREFIX + ItemNames.ITEMNAME_TRANSISTOR;
+
     
     // Other Textures
     public static final String ENTITY_HELLFIRE_LAYER1	  = RESOURCE_PREFIX + LOCATION_SHEET_ARMOR + "hellfire_layer_1"			+ ".png";
