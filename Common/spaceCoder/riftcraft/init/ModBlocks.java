@@ -22,7 +22,7 @@ import spaceCoder.riftcraft.block.dimension.BlockSubzeroFire;
 import spaceCoder.riftcraft.block.dimension.BlockSubzeroIce;
 import spaceCoder.riftcraft.block.dimension.BlockSubzeroMatter;
 import spaceCoder.riftcraft.block.ores.BlockAluminiumOre;
-import spaceCoder.riftcraft.block.ores.BlockCoperOre;
+import spaceCoder.riftcraft.block.ores.BlockCopperOre;
 import spaceCoder.riftcraft.block.ores.BlockCrystalOre;
 import spaceCoder.riftcraft.block.ores.BlockHellfireOre;
 import spaceCoder.riftcraft.block.ores.BlockLeadOre;
@@ -65,7 +65,7 @@ public class ModBlocks
     public static Block SubzeroFire;
     
     //Ores
-    public static Block CoperOre;
+    public static Block CopperOre;
     public static Block AluminiumOre;
     public static Block TinOre;
     public static Block PlatinumOre;
@@ -106,7 +106,7 @@ public class ModBlocks
         RiftMachineSupport      = new BlockRiftMachineSupport();
         
         //Ores
-        CoperOre                = new BlockCoperOre();
+        CopperOre               = new BlockCopperOre();
         AluminiumOre            = new BlockAluminiumOre();
         TinOre                  = new BlockTinOre();
         PlatinumOre             = new BlockPlatinumOre();
@@ -144,7 +144,7 @@ public class ModBlocks
         
         
         //Ores
-        RegisterHelper.registerBlock(CoperOre);
+        RegisterHelper.registerBlock(CopperOre);
         RegisterHelper.registerBlock(AluminiumOre);
         RegisterHelper.registerBlock(TinOre);
         RegisterHelper.registerBlock(PlatinumOre);

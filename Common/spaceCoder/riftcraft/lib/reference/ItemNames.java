@@ -29,4 +29,14 @@ public class ItemNames
     public static final String ITEMNAME_SPACETIMEFLUXSENSOR         = "SpaceTimeFluxSensor";
     public static final String ITEMNAME_TRANSISTOR		            = "Transistor";
     public static final String ITEMNAME_COPPERCOIL		            = "CopperCoil";
+    
+    public static final String ITEMNAME_COPPERINGOT                 = "CopperIngot";
+    public static final String ITEMNAME_TININGOT                    = "TinIngot";
+    public static final String ITEMNAME_SILVERINGOT                 = "SilverIngot";
+    public static final String ITEMNAME_ALUMINIUMINGOT              = "AluminiumIngot";
+    public static final String ITEMNAME_LEADINGOT                   = "LeadIngot";
+    public static final String ITEMNAME_TUNGSTENINGOT               = "TungstenIngot";
+    public static final String ITEMNAME_PLATINUMINGOT               = "PlatinumIngot";
+    public static final String ITEMNAME_TITANIUMINGOT               = "TitaniumIngot";
+    public static final String ITEMNAME_URANIUMINGOT                = "UraniumIngot";
 }

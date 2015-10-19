@@ -57,3 +57,25 @@ tile.riftcraft:SubzeroMatter.name=Subzero Matter
 tile.riftcraft:SubzeroCrystalOre.name=Subzero Crystal Ore
 tile.riftcraft:SubzeroIce.name=Subzero Ice
 tile.SubzeroFire.name=Subzero Fire
+
+# Ores
+tile.riftcraft:CoperOre.name=Coper Ore
+tile.riftcraft:TinOre.name=Tin Ore
+tile.riftcraft:AluminiumOre.name=Aluminium Ore
+tile.riftcraft:SilverOre.name=Silver Ore
+tile.riftcraft:LeadOre.name=Lead Ore
+tile.riftcraft:PlatinumOre.name=Platinum Ore
+tile.riftcraft:TitaniumOre.name=Titanium Ore
+tile.riftcraft:TungstenOre.name=Tungsten Ore
+tile.riftcraft:UraniumOre.name=Uranium Ore
+
+# Ingots
+item.riftcraft:CopperIngot.name=Copper Ingot
+item.riftcraft:TinIngot.name=Tin Ingot
+item.riftcraft:SilverIngot.name=Silver Ingot
+item.riftcraft:AluminiumIngot.name=Aluminium Ingot
+item.riftcraft:LeadIngot.name=Lead Ingot
+item.riftcraft:TungstenIngot.name=Tungsten Ingot
+item.riftcraft:PlatinumIngot.name=Platinum Ingot
+item.riftcraft:TitaniumIngot.name=Titanium Ingot
+item.riftcraft:UraniumIngot.name=Uranium Ingot

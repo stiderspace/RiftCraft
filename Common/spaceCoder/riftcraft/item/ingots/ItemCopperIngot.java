@@ -3,12 +3,12 @@ package spaceCoder.riftcraft.item.ingots;
 import spaceCoder.riftcraft.item.ItemRC;
 import spaceCoder.riftcraft.lib.reference.ItemNames;
 
-public class ItemSilverIngot extends ItemRC
+public class ItemCopperIngot extends ItemRC
 {
-    public ItemSilverIngot() 
+    public ItemCopperIngot() 
     {
         super();
-        this.setUnlocalizedName(ItemNames.ITEMNAME_SILVERINGOT);
+        this.setUnlocalizedName(ItemNames.ITEMNAME_COPPERINGOT);
     }
 
 }

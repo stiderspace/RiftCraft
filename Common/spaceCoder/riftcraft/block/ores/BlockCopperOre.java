@@ -4,9 +4,9 @@ import net.minecraft.block.material.Material;
 import spaceCoder.riftcraft.block.BlockRC;
 import spaceCoder.riftcraft.lib.reference.BlockNames;
 
-public class BlockCoperOre extends BlockRC
+public class BlockCopperOre extends BlockRC
 {
-    public BlockCoperOre()
+    public BlockCopperOre()
     {
         super(Material.rock);
         this.setBlockName(BlockNames.BLOCKNAME_COPERORE);
