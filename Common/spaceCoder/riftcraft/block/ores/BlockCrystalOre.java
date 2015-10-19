@@ -1,4 +1,4 @@
-package spaceCoder.riftcraft.block;
+package spaceCoder.riftcraft.block.ores;
 
 import java.util.Random;
 

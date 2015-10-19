@@ -1,5 +1,6 @@
-package spaceCoder.riftcraft.item;
+package spaceCoder.riftcraft.item.ingots;
 
+import spaceCoder.riftcraft.item.ItemRC;
 import spaceCoder.riftcraft.lib.reference.ItemNames;
 import net.minecraft.item.Item;
 

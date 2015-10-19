@@ -1,4 +1,4 @@
-package spaceCoder.riftcraft.block;
+package spaceCoder.riftcraft.block.ores;
 
 import java.util.Random;
 
@@ -8,6 +8,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.world.World;
+import spaceCoder.riftcraft.block.BlockRC;
 import spaceCoder.riftcraft.init.ModItems;
 import spaceCoder.riftcraft.lib.reference.BlockNames;
 
