@@ -1,5 +1,7 @@
 package spaceCoder.riftcraft;
 
+import spaceCoder.riftcraft.crafting.CraftingItems;
+import spaceCoder.riftcraft.crafting.ModCrafting;
 import spaceCoder.riftcraft.handler.ConfigurationHandler;
 import spaceCoder.riftcraft.init.ModBlocks;
 import spaceCoder.riftcraft.init.ModDimensions;
@@ -39,6 +41,8 @@ public class Riftcraft {
             ModTile.init();
             ModWorldGeneration.init();
             //ModDimensions.init();
+            ModCrafting.init();
+            CraftingItems.init();
             LogHelper.info("Pre Initialization Finished");
 		    		
 		}
