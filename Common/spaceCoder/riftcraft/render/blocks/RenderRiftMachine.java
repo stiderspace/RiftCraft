@@ -42,7 +42,7 @@ public class RenderRiftMachine extends TileEntitySpecialRenderer
             GL11.glTranslated(posX + 0.5, posY + 3.5, posZ + 0.5); 
             GL11.glScalef(scale, scale, scale);
             FMLClientHandler.instance().getClient().getTextureManager().bindTexture(Textures.MODEL_RIFTMACHINE_RING);
-            GL11.glRotated(tileEntityRiftMachine.rotation, 0, 0, 1);            
+            //GL11.glRotated(tileEntityRiftMachine.rotation, 0, 0, 1);            
             ring.renderAll();
         GL11.glPopMatrix(); 
         GL11.glPushMatrix();

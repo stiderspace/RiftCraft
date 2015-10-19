@@ -24,7 +24,7 @@ public class TileEntityRiftMachine extends TileEntity
     {
         if(rotation > -355)
         {
-            rotation = rotation + 10 ;
+            rotation = rotation + 5 ;
         }
         else
         {
