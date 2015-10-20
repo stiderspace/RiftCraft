@@ -59,7 +59,7 @@ tile.riftcraft:SubzeroIce.name=Subzero Ice
 tile.SubzeroFire.name=Subzero Fire
 
 # Ores
-tile.riftcraft:CoperOre.name=Coper Ore
+tile.riftcraft:CopperOre.name=Copper Ore
 tile.riftcraft:TinOre.name=Tin Ore
 tile.riftcraft:AluminiumOre.name=Aluminium Ore
 tile.riftcraft:SilverOre.name=Silver Ore
