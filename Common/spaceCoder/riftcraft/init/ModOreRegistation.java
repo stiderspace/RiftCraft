@@ -7,7 +7,7 @@ public class ModOreRegistation
 {
     public static void init()
     {
-        OreDictionary.registerOre("oreAluminum", ModBlocks.AluminiumOre);
+        OreDictionary.registerOre("oreAluminium", ModBlocks.AluminiumOre);
         OreDictionary.registerOre("oreCopper", ModBlocks.CopperOre);
         OreDictionary.registerOre("oreTin", ModBlocks.TinOre);
         OreDictionary.registerOre("oreSilver", ModBlocks.SilverOre);
@@ -17,7 +17,7 @@ public class ModOreRegistation
         OreDictionary.registerOre("oreTunsten", ModBlocks.TunstenOre);
         OreDictionary.registerOre("oreUranium", ModBlocks.UraniumOre);
         
-        OreDictionary.registerOre("ingotAluminum", ModItems.AluminiumIngot);
+        OreDictionary.registerOre("ingotAluminium", ModItems.AluminiumIngot);
         OreDictionary.registerOre("ingotCopper", ModItems.CopperIngot);
         OreDictionary.registerOre("ingotTin", ModItems.TinIngot);
         OreDictionary.registerOre("ingotSilver", ModItems.SilverIngot);
