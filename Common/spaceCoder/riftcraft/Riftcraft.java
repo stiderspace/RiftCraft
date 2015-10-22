@@ -10,6 +10,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import spaceCoder.riftcraft.crafting.CraftingItems;
 import spaceCoder.riftcraft.crafting.ModCrafting;
+import spaceCoder.riftcraft.crafting.Smelting;
 import spaceCoder.riftcraft.handler.ConfigurationHandler;
 import spaceCoder.riftcraft.init.ModBlocks;
 import spaceCoder.riftcraft.init.ModItems;
@@ -44,6 +45,7 @@ public class Riftcraft {
             ModCrafting.init();
             CraftingItems.init();
             ModOreRegistation.init();
+            Smelting.init();
             LogHelper.info("Pre Initialization Finished");
 		    		
 		}
