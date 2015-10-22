@@ -30,7 +30,7 @@ import spaceCoder.riftcraft.block.ores.BlockPlatinumOre;
 import spaceCoder.riftcraft.block.ores.BlockSilverOre;
 import spaceCoder.riftcraft.block.ores.BlockTinOre;
 import spaceCoder.riftcraft.block.ores.BlockTitaniumOre;
-import spaceCoder.riftcraft.block.ores.BlockTunstenOre;
+import spaceCoder.riftcraft.block.ores.BlockTungstenOre;
 import spaceCoder.riftcraft.block.ores.BlockUraniumOre;
 import spaceCoder.riftcraft.lib.reference.Reference;
 import spaceCoder.riftcraft.lib.utility.RegisterHelper;
@@ -112,7 +112,7 @@ public class ModBlocks
         PlatinumOre             = new BlockPlatinumOre();
         LeadOre                 = new BlockLeadOre();
         SilverOre               = new BlockSilverOre();
-        TunstenOre              = new BlockTunstenOre();
+        TunstenOre              = new BlockTungstenOre();
         UraniumOre              = new BlockUraniumOre();
         TitaniumOre             = new BlockTitaniumOre();
         
