@@ -1,4 +1,4 @@
-package spaceCoder.riftcraft.crafting;
+package spaceCoder.riftcraft.craftingHandlers;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
@@ -7,7 +7,7 @@ import net.minecraft.item.ItemStack;
 import spaceCoder.riftcraft.lib.reference.Reference;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
-public class ModCrafting 
+public class CraftingHandler 
 {
 	public static void init()
 	{

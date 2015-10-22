@@ -8,9 +8,9 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import spaceCoder.riftcraft.crafting.CraftingItems;
-import spaceCoder.riftcraft.crafting.ModCrafting;
-import spaceCoder.riftcraft.crafting.Smelting;
+import spaceCoder.riftcraft.craftingHandlers.ItemsCraftingHandler;
+import spaceCoder.riftcraft.craftingHandlers.CraftingHandler;
+import spaceCoder.riftcraft.craftingHandlers.SmeltingHandler;
 import spaceCoder.riftcraft.handler.ConfigurationHandler;
 import spaceCoder.riftcraft.init.ModBlocks;
 import spaceCoder.riftcraft.init.ModItems;
@@ -42,10 +42,10 @@ public class Riftcraft {
             ModTile.init();
             ModWorldGeneration.init();
             //ModDimensions.init();
-            ModCrafting.init();
-            CraftingItems.init();
+            CraftingHandler.init();
+            ItemsCraftingHandler.init();
             ModOreRegistation.init();
-            Smelting.init();
+            SmeltingHandler.init();
             LogHelper.info("Pre Initialization Finished");
 		    		
 		}

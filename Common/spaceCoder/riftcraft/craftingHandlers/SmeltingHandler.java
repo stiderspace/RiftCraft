@@ -1,4 +1,4 @@
-package spaceCoder.riftcraft.crafting;
+package spaceCoder.riftcraft.craftingHandlers;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Blocks;
@@ -8,7 +8,7 @@ import spaceCoder.riftcraft.init.ModItems;
 import spaceCoder.riftcraft.lib.reference.Reference;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
-public class Smelting 
+public class SmeltingHandler 
 {
 	public static void init()
 	{

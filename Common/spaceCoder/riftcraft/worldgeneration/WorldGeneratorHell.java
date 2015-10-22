@@ -10,7 +10,7 @@ import net.minecraft.world.gen.feature.WorldGenMinable;
 import spaceCoder.riftcraft.init.ModBlocks;
 import cpw.mods.fml.common.IWorldGenerator;
 
-public class WorldGeneratorHellfire implements IWorldGenerator 
+public class WorldGeneratorHell implements IWorldGenerator 
 {
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider)
