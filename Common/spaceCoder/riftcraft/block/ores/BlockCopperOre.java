@@ -9,7 +9,7 @@ public class BlockCopperOre extends BlockRC
     public BlockCopperOre()
     {
         super(Material.rock);
-        this.setBlockName(BlockNames.BLOCKNAME_COPERORE);
+        this.setBlockName(BlockNames.BLOCKNAME_COPPERORE);
         this.setHardness(4.0F);
         this.setResistance(2.0F);
         this.setStepSound(soundTypeStone);

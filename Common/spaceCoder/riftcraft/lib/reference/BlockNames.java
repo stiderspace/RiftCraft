@@ -31,7 +31,7 @@ public class BlockNames
 	public static final String BLOCKNAME_SUBZEROFIRE           = "SubzeroFire";
 	
 	//Ores
-	public static final String BLOCKNAME_COPERORE              = "CoperOre";
+	public static final String BLOCKNAME_COPPERORE              = "CoperOre";
 	public static final String BLOCKNAME_TINORE                = "TinOre";
 	public static final String BLOCKNAME_ALUMINIUMORE          = "AluminiumOre";
 	public static final String BLOCKNAME_SILVERORE             = "SilverOre";
