@@ -32,15 +32,15 @@ public class WorldGeneratorOverworld implements IWorldGenerator
      
     private void generateSurface(World world, Random random, int x, int z)
     {
-        this.addOreSpawn(ModBlocks.CopperOre, world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
-        this.addOreSpawn(ModBlocks.AluminiumOre, world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
-        this.addOreSpawn(ModBlocks.LeadOre, world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
-        this.addOreSpawn(ModBlocks.TinOre, world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
-        this.addOreSpawn(ModBlocks.PlatinumOre, world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
-        this.addOreSpawn(ModBlocks.TunstenOre, world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
-        this.addOreSpawn(ModBlocks.SilverOre, world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
-        this.addOreSpawn(ModBlocks.TitaniumOre, world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
-        this.addOreSpawn(ModBlocks.UraniumOre, world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
+        this.addOreSpawn(ModBlocks.CopperOre, 		world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
+        this.addOreSpawn(ModBlocks.AluminiumOre, 	world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
+        this.addOreSpawn(ModBlocks.LeadOre, 		world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
+        this.addOreSpawn(ModBlocks.TinOre, 			world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
+        this.addOreSpawn(ModBlocks.PlatinumOre, 	world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
+        this.addOreSpawn(ModBlocks.TunstenOre, 		world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
+        this.addOreSpawn(ModBlocks.SilverOre, 		world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
+        this.addOreSpawn(ModBlocks.TitaniumOre, 	world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
+        this.addOreSpawn(ModBlocks.UraniumOre, 		world, random, x, z, 16, 16, 1 + random.nextInt(50), 4+random.nextInt(20), 0, 256);
         
         //8th = variable of the size of the vein. 9th = number of veins to spawn per chunk. 10+11 = lowest height, highest height
     }

@@ -30,6 +30,10 @@ public class ItemNames
     public static final String ITEMNAME_TRANSISTOR		            = "Transistor";
     public static final String ITEMNAME_COPPERCOIL		            = "CopperCoil";
     
+    public static final String ITEMNAME_COPPERWIRE					= "CopperWire";
+    public static final String ITEMNAME_IRONWIRE					= "IronWire";
+    public static final String ITEMNAME_TUNGSTENWIRE				= "TungstenWire";
+    
     public static final String ITEMNAME_COPPERINGOT                 = "CopperIngot";
     public static final String ITEMNAME_TININGOT                    = "TinIngot";
     public static final String ITEMNAME_SILVERINGOT                 = "SilverIngot";

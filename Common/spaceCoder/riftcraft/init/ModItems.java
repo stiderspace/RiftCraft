@@ -8,11 +8,13 @@ import spaceCoder.riftcraft.item.ItemCapacitor1;
 import spaceCoder.riftcraft.item.ItemCapacitor2;
 import spaceCoder.riftcraft.item.ItemCircuitBoard;
 import spaceCoder.riftcraft.item.ItemCopperCoil;
+import spaceCoder.riftcraft.item.ItemCopperWire;
 import spaceCoder.riftcraft.item.ItemHellfireBoots;
 import spaceCoder.riftcraft.item.ItemHellfireChestplate;
 import spaceCoder.riftcraft.item.ItemHellfireDust;
 import spaceCoder.riftcraft.item.ItemHellfireHelmet;
 import spaceCoder.riftcraft.item.ItemHellfireLeggings;
+import spaceCoder.riftcraft.item.ItemIronWire;
 import spaceCoder.riftcraft.item.ItemLEDBlue;
 import spaceCoder.riftcraft.item.ItemLEDGreen;
 import spaceCoder.riftcraft.item.ItemLEDRed;
@@ -23,6 +25,7 @@ import spaceCoder.riftcraft.item.ItemResistor1;
 import spaceCoder.riftcraft.item.ItemResistor2;
 import spaceCoder.riftcraft.item.ItemSpaceTimeFluxSensor;
 import spaceCoder.riftcraft.item.ItemTransistor;
+import spaceCoder.riftcraft.item.ItemTungstenWire;
 import spaceCoder.riftcraft.item.ItemWarpedMatterIngot;
 import spaceCoder.riftcraft.item.Material;
 import spaceCoder.riftcraft.item.ingots.ItemAluminiumIngot;
@@ -70,6 +73,10 @@ public class ModItems
     public static Item Transistor;
     public static Item CopperCoil;
     
+    public static Item CopperWire;
+    public static Item IronWire;
+    public static Item TungstenWire;
+    
     public static Item CopperIngot;
     public static Item TinIngot;
     public static Item SilverIngot;
@@ -110,6 +117,10 @@ public class ModItems
         Transistor             	      = new ItemTransistor();
         CopperCoil				      = new ItemCopperCoil();
         
+        CopperWire				      = new ItemCopperWire();
+        IronWire				      = new ItemIronWire();
+        TungstenWire				  = new ItemTungstenWire();
+        
         CopperIngot                     = new ItemCopperIngot();
         TinIngot                        = new ItemTinIngot();
         SilverIngot                     = new ItemSilverIngot();
@@ -146,6 +157,10 @@ public class ModItems
         RegisterHelper.registerItem(SpaceTimeFluxSensor);
         RegisterHelper.registerItem(Transistor);
         RegisterHelper.registerItem(CopperCoil);
+        
+        RegisterHelper.registerItem(CopperWire);
+        RegisterHelper.registerItem(IronWire);
+        RegisterHelper.registerItem(TungstenWire);
         
         RegisterHelper.registerItem(CopperIngot);
         RegisterHelper.registerItem(TinIngot);
