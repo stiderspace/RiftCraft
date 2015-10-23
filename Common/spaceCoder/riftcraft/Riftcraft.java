@@ -9,6 +9,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import spaceCoder.riftcraft.craftingHandlers.ItemsCraftingHandler;
+import spaceCoder.riftcraft.craftingHandlers.BlocksCraftingHandler;
 import spaceCoder.riftcraft.craftingHandlers.CraftingHandler;
 import spaceCoder.riftcraft.craftingHandlers.SmeltingHandler;
 import spaceCoder.riftcraft.handler.ConfigurationHandler;
@@ -43,6 +44,7 @@ public class Riftcraft {
             ModWorldGeneration.init();
             //ModDimensions.init();
             CraftingHandler.init();
+            BlocksCraftingHandler.init();
             ItemsCraftingHandler.init();
             ModOreRegistation.init();
             SmeltingHandler.init();
