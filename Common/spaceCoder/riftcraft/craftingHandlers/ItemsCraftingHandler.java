@@ -67,6 +67,14 @@ public class ItemsCraftingHandler
 		
 		
 		
+		GameRegistry.addRecipe(new ItemStack(ModItems.CopperWire), 			"   ", "xxx", "   ",
+		'x', ModItems.CopperIngot);
+		
+		GameRegistry.addRecipe(new ItemStack(ModItems.IronWire), 			"   ", "xxx", "   ",
+		'x', Items.iron_ingot);
+		
+		GameRegistry.addRecipe(new ItemStack(ModItems.TungstenWire), 		"   ", "xxx", "   ",
+		'x', ModItems.TungstenIngot);
 		
 		
 		
