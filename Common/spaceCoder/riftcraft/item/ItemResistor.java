@@ -11,7 +11,7 @@ public class ItemResistor extends ItemRC
     public ItemResistor() 
     {
         super();
-        this.setUnlocalizedName(ItemNames.ITEMNAME_RESISTOR1);
+        this.setUnlocalizedName(ItemNames.ITEMNAME_RESISTOR);
     }
     
     public ItemStack onItemRightClick(ItemStack ItemStack, World World, EntityPlayer entityPlayer)

@@ -113,15 +113,15 @@ public class ModItems
         IronWire				      = new ItemIronWire();
         TungstenWire				  = new ItemTungstenWire();
         
-        CopperIngot                     = new ItemCopperIngot();
-        TinIngot                        = new ItemTinIngot();
-        SilverIngot                     = new ItemSilverIngot();
-        AluminiumIngot                  = new ItemAluminiumIngot();
-        LeadIngot                       = new ItemLeadIngot();
-        TungstenIngot                   = new ItemTungstenIngot();
-        PlatinumIngot                   = new ItemPlatinumIngot();
-        TitaniumIngot                   = new ItemTitaniumIngot();
-        UraniumIngot                    = new ItemUraniumIngot();
+        CopperIngot                   = new ItemCopperIngot();
+        TinIngot                      = new ItemTinIngot();
+        SilverIngot                   = new ItemSilverIngot();
+        AluminiumIngot                = new ItemAluminiumIngot();
+        LeadIngot                     = new ItemLeadIngot();
+        TungstenIngot                 = new ItemTungstenIngot();
+        PlatinumIngot                 = new ItemPlatinumIngot();
+        TitaniumIngot                 = new ItemTitaniumIngot();
+        UraniumIngot                  = new ItemUraniumIngot();
         
         //Register the items
         RegisterHelper.registerItem(WarpedMatterIngot);
@@ -141,7 +141,6 @@ public class ModItems
         RegisterHelper.registerItem(LEDGreen);
         RegisterHelper.registerItem(LEDRed);
         RegisterHelper.registerItem(LEDYellow);
-        RegisterHelper.registerItem(MicroController);
         RegisterHelper.registerItem(Processor);
         RegisterHelper.registerItem(Resistor);
         RegisterHelper.registerItem(SpaceTimeFluxSensor);

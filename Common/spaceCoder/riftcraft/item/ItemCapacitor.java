@@ -11,7 +11,7 @@ public class ItemCapacitor extends ItemRC
     public ItemCapacitor() 
     {
         super();
-        this.setUnlocalizedName(ItemNames.ITEMNAME_CAPACITOR1);
+        this.setUnlocalizedName(ItemNames.ITEMNAME_CAPACITOR);
     }
     
     public ItemStack onItemRightClick(ItemStack ItemStack, World World, EntityPlayer entityPlayer)

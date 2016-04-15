@@ -16,13 +16,13 @@ public class ItemNames
     public static final String ITEMNAME_HELLFIRELEGGINGS            = "HellfireLeggings";
     public static final String ITEMNAME_HELLFIREBOOTS	            = "HellfireBoots";
     
-    public static final String ITEMNAME_CAPACITOR1		            = "Capacitor";
+    public static final String ITEMNAME_CAPACITOR		            = "Capacitor";
     public static final String ITEMNAME_LEDBLUE			            = "LEDBlue";
     public static final String ITEMNAME_LEDGREEN		            = "LEDGreen";
     public static final String ITEMNAME_LEDRED			            = "LEDRed";
     public static final String ITEMNAME_LEDYELLOW		            = "LEDYellow";
     public static final String ITEMNAME_PROCESSOR		            = "Processor";
-    public static final String ITEMNAME_RESISTOR1		            = "Resistor";
+    public static final String ITEMNAME_RESISTOR		            = "Resistor";
     public static final String ITEMNAME_SPACETIMEFLUXSENSOR         = "SpaceTimeFluxSensor";
     public static final String ITEMNAME_TRANSISTOR		            = "Transistor";
     public static final String ITEMNAME_COPPERCOIL		            = "CopperCoil";

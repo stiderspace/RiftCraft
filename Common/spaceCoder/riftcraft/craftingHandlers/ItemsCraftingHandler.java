@@ -23,8 +23,10 @@ public class ItemsCraftingHandler
 		ItemStack RedGlass	  = new ItemStack(Blocks.stained_glass_pane, 1, 14);
 		ItemStack YellowGlass = new ItemStack(Blocks.stained_glass_pane, 1, 4);
 		
-		GameRegistry.addRecipe(new ItemStack(ModItems.BasicCircuit), 		"czc", "axa", "byb",
-		'x', ModItems.CircuitBoard, 'y', ModItems.Resistor, 'z', ModItems.MicroController, 'a', ModItems.Capacitor, 'b', ModItems.Transistor, 'c', ModItems.LEDGreen);
+		/*
+		GameRegistry.addRecipe(new ItemStack(ModItems.BasicCircuit), 		"czc", "a a", "byb",
+		'x', ModItems.CircuitBoard, 'y', ModItems.Resistor, 'z', 'a', ModItems.Capacitor, 'b', ModItems.Transistor, 'c', ModItems.LEDGreen);
+		*/
 		
 		GameRegistry.addRecipe(new ItemStack(ModItems.Capacitor), 			"yxy", "yxy", "y y",
 		'x', Items.paper, 'y', Items.iron_ingot);
@@ -46,9 +48,6 @@ public class ItemsCraftingHandler
 		
 		GameRegistry.addRecipe(new ItemStack(ModItems.LEDYellow), 			" x ", "x x", "y y",
 		'x', YellowGlass, 'y', Items.iron_ingot);
-		
-		GameRegistry.addRecipe(new ItemStack(ModItems.MicroController), 	"xyx", "xzx", "xyx",
-		'x', ModItems.IronWire, 'y', ModItems.AluminiumIngot, 'z', ModItems.BasicCircuit);
 		
 		GameRegistry.addRecipe(new ItemStack(ModItems.Processor), 			"xyx", "yzy", "xyx",
 		'x', ModItems.Transistor, 'y', ModItems.IronWire, 'z', ModItems.AluminiumIngot);
