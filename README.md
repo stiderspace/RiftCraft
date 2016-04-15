@@ -1,4 +1,4 @@
 RiftCraft
 =========
 
-everything about rifts and space time manipulation
+Everything about Rifts and Space/Time manipulation.
