@@ -6,19 +6,19 @@ import net.minecraft.world.World;
 import spaceCoder.riftcraft.lib.reference.ItemNames;
 import spaceCoder.riftcraft.lib.utility.ChatMessageHelper;
 
-public class ItemResistor2 extends ItemRC 
+public class ItemCapacitor extends ItemRC 
 {
-    public ItemResistor2() 
+    public ItemCapacitor() 
     {
         super();
-        this.setUnlocalizedName(ItemNames.ITEMNAME_RESISTOR2);
+        this.setUnlocalizedName(ItemNames.ITEMNAME_CAPACITOR1);
     }
     
     public ItemStack onItemRightClick(ItemStack ItemStack, World World, EntityPlayer entityPlayer)
     {
         if (World.isRemote)
         {
-            ChatMessageHelper.sendMessage("A basic resistor for lowering currents.", entityPlayer);
+            ChatMessageHelper.sendMessage("A basic capacitor to hold a current.", entityPlayer);
         }
         return ItemStack;
 

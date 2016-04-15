@@ -69,15 +69,12 @@ public class Textures
     public static final String TEXTURE_HELLFIREBOOTS	  = RESOURCE_PREFIX + ItemNames.ITEMNAME_HELLFIREBOOTS;
     
     public static final String TEXTURE_CAPACITOR1		  = RESOURCE_PREFIX + ItemNames.ITEMNAME_CAPACITOR1;
-    public static final String TEXTURE_CAPACITOR2		  = RESOURCE_PREFIX + ItemNames.ITEMNAME_CAPACITOR2;
     public static final String TEXTURE_LEDBLUE			  = RESOURCE_PREFIX + ItemNames.ITEMNAME_LEDBLUE;
     public static final String TEXTURE_LEDGREEN			  = RESOURCE_PREFIX + ItemNames.ITEMNAME_LEDGREEN;
     public static final String TEXTURE_LEDRED			  = RESOURCE_PREFIX + ItemNames.ITEMNAME_LEDRED;
     public static final String TEXTURE_LEDYELLOW		  = RESOURCE_PREFIX + ItemNames.ITEMNAME_LEDYELLOW;
-    public static final String TEXTURE_MICROCONTROLLER	  = RESOURCE_PREFIX + ItemNames.ITEMNAME_MICROCONTROLLER;
     public static final String TEXTURE_PROCESSOR		  = RESOURCE_PREFIX + ItemNames.ITEMNAME_PROCESSOR;
     public static final String TEXTURE_RESISTOR1		  = RESOURCE_PREFIX + ItemNames.ITEMNAME_RESISTOR1;
-    public static final String TEXTURE_RESISTOR2		  = RESOURCE_PREFIX + ItemNames.ITEMNAME_RESISTOR2;
     public static final String TEXTURE_SPACETIMEFLUXSENSOR= RESOURCE_PREFIX + ItemNames.ITEMNAME_SPACETIMEFLUXSENSOR;
     public static final String TEXTURE_TRANSISTOR		  = RESOURCE_PREFIX + ItemNames.ITEMNAME_TRANSISTOR;
 
