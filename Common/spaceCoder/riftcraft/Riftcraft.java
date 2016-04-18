@@ -13,6 +13,7 @@ import spaceCoder.riftcraft.craftingHandlers.BlocksCraftingHandler;
 import spaceCoder.riftcraft.craftingHandlers.CraftingHandler;
 import spaceCoder.riftcraft.craftingHandlers.SmeltingHandler;
 import spaceCoder.riftcraft.handler.ConfigurationHandler;
+import spaceCoder.riftcraft.init.ModBiomes;
 import spaceCoder.riftcraft.init.ModBlocks;
 import spaceCoder.riftcraft.init.ModItems;
 import spaceCoder.riftcraft.init.ModOreRegistation;
@@ -48,6 +49,8 @@ public class Riftcraft {
             ItemsCraftingHandler.init();
             ModOreRegistation.init();
             SmeltingHandler.init();
+            ModBiomes.init();
+            
             LogHelper.info("Pre Initialization Finished");
 		    		
 		}
