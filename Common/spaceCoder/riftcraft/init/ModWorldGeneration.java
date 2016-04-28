@@ -19,6 +19,7 @@ public class ModWorldGeneration
 		
 		
 		
+		
 		//Register the generator
 		RegisterHelper.registerIWorldGenerator(Hellfire);
 		RegisterHelper.registerIWorldGenerator(Ores);

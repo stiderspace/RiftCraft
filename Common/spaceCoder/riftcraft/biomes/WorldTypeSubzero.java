@@ -12,4 +12,12 @@ public class WorldTypeSubzero extends WorldType
 	{
 		super(name);
 	}
+	
+    public GenLayer getBiomeLayer(long worldSeed, GenLayer parentLayer)
+    {
+        GenLayer ret = new SubzeroGenLayerBiome(200L, parentLayer, this);
+        ret = GenLayerZoom.magnify(1000L, ret, 2);
+        ret = new GenLayerBiomeEdge(1000L, ret);
+        return ret;
+    }
 }

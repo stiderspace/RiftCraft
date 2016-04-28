@@ -65,6 +65,7 @@ public class Riftcraft {
 		@EventHandler
 		public void postInit(FMLPostInitializationEvent event) 
 		{
+			ModBiomes.postinit();
 		    LogHelper.info("Post Initialization Finished");
 		}
 	}
