@@ -6,7 +6,7 @@ public class BlockNames
 	//Basic Blocks
 	public static final String BLOCKNAME_WARPEDMATTER          = "WarpedMatter";
 	public static final String BLOCKNAME_RIFT		           = "Rift";
-	public static final String BLOCKNAME_BLACKHOLEEXTRACTOR    = "BlackHoleExtractor";
+	public static final String BLOCKNAME_BLACKHOLEEXTRACTOR    = "BlackHoleExtractors";
 	public static final String BLOCKNAME_ENERGYHUB             = "EnergyHub";
 	public static final String BLOCKNAME_ENERGYCONVERTER       = "EnergyConverter";
 	public static final String BLOCKNAME_RIFTMACHINE           = "RiftMachine";

@@ -15,6 +15,7 @@ import spaceCoder.riftcraft.craftingHandlers.SmeltingHandler;
 import spaceCoder.riftcraft.handler.ConfigurationHandler;
 import spaceCoder.riftcraft.init.ModBiomes;
 import spaceCoder.riftcraft.init.ModBlocks;
+import spaceCoder.riftcraft.init.ModDimensions;
 import spaceCoder.riftcraft.init.ModItems;
 import spaceCoder.riftcraft.init.ModOreRegistation;
 import spaceCoder.riftcraft.init.ModTile;
@@ -43,7 +44,7 @@ public class Riftcraft {
             ModItems.init();
             ModTile.init();
             ModWorldGeneration.init();
-            //ModDimensions.init();
+            ModDimensions.init();
             CraftingHandler.init();
             BlocksCraftingHandler.init();
             ItemsCraftingHandler.init();

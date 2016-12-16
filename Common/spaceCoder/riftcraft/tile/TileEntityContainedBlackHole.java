@@ -22,7 +22,7 @@ public class TileEntityContainedBlackHole extends TileEntity
     {
         if(rotation > -355)
         {
-            rotation = rotation - 10;
+            rotation = rotation - 20;
         }
         else
         {
